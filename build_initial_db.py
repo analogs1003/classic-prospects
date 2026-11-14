@@ -2617,6 +2617,21 @@ def main():
 
     merged_horses = build_merged_horses()
 
+    from validate_db import validate_collection
+
+    v_errors, v_warnings = validate_collection(
+        merged_horses, expected_birth_year=2024, prefix="[2027] "
+    )
+    if v_warnings:
+        print(f"Validation warnings ({len(v_warnings)}):")
+        for w in v_warnings:
+            print(f"  - {w}")
+    if v_errors:
+        print(f"Validation errors ({len(v_errors)}):")
+        for e in v_errors:
+            print(f"  - {e}")
+        raise SystemExit(1)
+
     snap_file = out_dir / "snapshots_2027.json"
     if args.snapshot_date:
         snapshot_date = args.snapshot_date
