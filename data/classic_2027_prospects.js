@@ -3,7 +3,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
   "generation_id": "2027",
   "season_label": "2027クラシック世代（現2歳・2024年産）",
   "period_label": "〜2027年 日本ダービー・オークスまで",
-  "updated_at": "2026-11-14 11:48",
+  "updated_at": "2026-11-14 12:32",
   "horses": [
     {
       "netkeiba_id": "2024106655",
@@ -1927,7 +1927,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
       "race_status": "OP・1勝クラス勝馬",
       "starts": 4,
       "wins": 2,
-      "major_results": "2026年アイビーS(L・東京芝1800)1着"
+      "major_results": "2026年アイビーS(L・東京芝1800)1着、未勝利1着"
     },
     {
       "netkeiba_id": "2024104442",
@@ -1953,7 +1953,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
       "race_status": "OP・1勝クラス勝馬",
       "starts": 6,
       "wins": 2,
-      "major_results": "2026年萩S(L・京都芝1800)1着"
+      "major_results": "2026年萩S(L・京都芝1800)1着、未勝利1着"
     },
     {
       "netkeiba_id": "2024106264",
@@ -2083,7 +2083,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
       "race_status": "OP・1勝クラス勝馬",
       "starts": 2,
       "wins": 2,
-      "major_results": "2026年11月百日草特別(1勝・東京芝2000)1着"
+      "major_results": "2026年11月百日草特別(1勝・東京芝2000)1着、新馬1着"
     },
     {
       "netkeiba_id": "2024102281",
@@ -2421,7 +2421,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
       "race_status": "OP・1勝クラス勝馬",
       "starts": 3,
       "wins": 2,
-      "major_results": "2026年紫菊賞(1勝・京都芝2000)1着"
+      "major_results": "2026年紫菊賞(1勝・京都芝2000)1着、未勝利1着"
     },
     {
       "netkeiba_id": "2024106454",
@@ -2672,8 +2672,32 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "starts": 2,
         "wins": 2
       },
-      "2024106454": {
+      "2024104442": {
         "rank": 9,
+        "sex_rank": 5,
+        "score": 67,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 6,
+        "wins": 2
+      },
+      "2024105780": {
+        "rank": 10,
+        "sex_rank": 6,
+        "score": 67,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 4,
+        "wins": 2
+      },
+      "2024106386": {
+        "rank": 11,
+        "sex_rank": 7,
+        "score": 63,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 2,
+        "wins": 2
+      },
+      "2024106454": {
+        "rank": 12,
         "sex_rank": 5,
         "score": 63,
         "race_status": "OP・1勝クラス勝馬",
@@ -2681,92 +2705,68 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 2
       },
       "2024106264": {
-        "rank": 10,
-        "sex_rank": 5,
+        "rank": 13,
+        "sex_rank": 8,
         "score": 63,
         "race_status": "OP・1勝クラス勝馬",
         "starts": 2,
         "wins": 2
       },
       "2024106399": {
-        "rank": 11,
-        "sex_rank": 6,
+        "rank": 14,
+        "sex_rank": 9,
         "score": 63,
         "race_status": "OP・1勝クラス勝馬",
         "starts": 2,
         "wins": 2
       },
+      "2024106124": {
+        "rank": 15,
+        "sex_rank": 6,
+        "score": 63,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 3,
+        "wins": 2
+      },
       "2024101722": {
-        "rank": 12,
-        "sex_rank": 7,
+        "rank": 16,
+        "sex_rank": 10,
         "score": 63,
         "race_status": "OP・1勝クラス勝馬",
         "starts": 2,
         "wins": 2
       },
       "2024105758": {
-        "rank": 13,
-        "sex_rank": 6,
+        "rank": 17,
+        "sex_rank": 7,
         "score": 63,
         "race_status": "OP・1勝クラス勝馬",
         "starts": 2,
         "wins": 2
       },
       "2024100445": {
-        "rank": 14,
-        "sex_rank": 8,
+        "rank": 18,
+        "sex_rank": 11,
         "score": 63,
         "race_status": "OP・1勝クラス勝馬",
         "starts": 3,
         "wins": 2
       },
-      "2024104442": {
-        "rank": 15,
-        "sex_rank": 9,
-        "score": 49,
-        "race_status": "OP・1勝クラス勝馬",
-        "starts": 6,
-        "wins": 2
-      },
-      "2024105780": {
-        "rank": 16,
-        "sex_rank": 10,
-        "score": 49,
-        "race_status": "OP・1勝クラス勝馬",
-        "starts": 4,
-        "wins": 2
-      },
       "2024106649": {
-        "rank": 17,
-        "sex_rank": 11,
+        "rank": 19,
+        "sex_rank": 12,
         "score": 49,
         "race_status": "新馬・未勝利勝馬",
         "starts": 2,
         "wins": 1
       },
       "2024100671": {
-        "rank": 18,
-        "sex_rank": 12,
+        "rank": 20,
+        "sex_rank": 13,
         "score": 48,
         "race_status": "重賞・OP好走",
         "starts": 3,
         "wins": 1
-      },
-      "2024106386": {
-        "rank": 19,
-        "sex_rank": 13,
-        "score": 45,
-        "race_status": "OP・1勝クラス勝馬",
-        "starts": 2,
-        "wins": 2
-      },
-      "2024106124": {
-        "rank": 20,
-        "sex_rank": 7,
-        "score": 45,
-        "race_status": "OP・1勝クラス勝馬",
-        "starts": 3,
-        "wins": 2
       },
       "2024104321": {
         "rank": 21,

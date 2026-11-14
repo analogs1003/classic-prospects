@@ -29,7 +29,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "race_status": "重賞勝馬",
       "starts": 4,
       "wins": 4,
-      "major_results": "2026年日本ダービー(G1)1着、皐月賞(G1)1着、ホープフルS(G1)1着"
+      "major_results": "2026年日本ダービー(G1)1着、皐月賞(G1)1着、ホープフルS(G1)1着、京都新馬1着"
     },
     {
       "netkeiba_id": "2023102979",
@@ -55,7 +55,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "race_status": "重賞勝馬",
       "starts": 4,
       "wins": 3,
-      "major_results": "2026年オークス(G1・東京芝2400)1着"
+      "major_results": "2026年オークス(G1・東京芝2400)1着、1勝クラス1着、阪神新馬(ダ1800)1着"
     },
     {
       "netkeiba_id": "2023106920",
@@ -81,7 +81,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "race_status": "重賞勝馬",
       "starts": 5,
       "wins": 3,
-      "major_results": "2026年桜花賞(G1)1着、阪神JF(G1)1着"
+      "major_results": "2026年桜花賞(G1)1着、阪神JF(G1)1着、未勝利1着"
     },
     {
       "netkeiba_id": "2023107153",
@@ -107,7 +107,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "race_status": "重賞勝馬",
       "starts": 5,
       "wins": 2,
-      "major_results": "朝日杯FS(G1)1着、デイリー杯2歳S(G2)2着"
+      "major_results": "朝日杯FS(G1)1着、デイリー杯2歳S(G2)2着、中京新馬1着"
     },
     {
       "netkeiba_id": "2023107377",
@@ -133,7 +133,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "race_status": "重賞勝馬",
       "starts": 5,
       "wins": 2,
-      "major_results": "日本ダービー(G1)2着、東スポ杯2歳S(G2)1着"
+      "major_results": "日本ダービー(G1)2着、東スポ杯2歳S(G2)1着、未勝利1着"
     },
     {
       "netkeiba_id": "2023105685",
@@ -159,7 +159,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "race_status": "重賞勝馬",
       "starts": 7,
       "wins": 2,
-      "major_results": "朝日杯FS(G1)2着、京王杯2歳S(G2)1着"
+      "major_results": "朝日杯FS(G1)2着、京王杯2歳S(G2)1着、未勝利1着"
     },
     {
       "netkeiba_id": "2023103604",
@@ -185,7 +185,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "race_status": "重賞勝馬",
       "starts": 5,
       "wins": 3,
-      "major_results": "皐月賞(G1)2着、新潟2歳S(G3)1着"
+      "major_results": "皐月賞(G1)2着、共同通信杯(G3)1着、新潟2歳S(G3)1着、新馬1着"
     },
     {
       "netkeiba_id": "2023105078",
@@ -211,7 +211,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "race_status": "重賞勝馬",
       "starts": 5,
       "wins": 2,
-      "major_results": "デイリー杯2歳S(G2)1着、朝日杯FS(G1)3着"
+      "major_results": "デイリー杯2歳S(G2)1着、朝日杯FS(G1)3着、東京新馬1着"
     },
     {
       "netkeiba_id": "2023107247",
@@ -237,7 +237,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "race_status": "重賞勝馬",
       "starts": 5,
       "wins": 3,
-      "major_results": "弥生賞(G2)1着、日本ダービー(G1)3着"
+      "major_results": "弥生賞(G2)1着、日本ダービー(G1)3着、1勝クラス1着、未勝利1着"
     },
     {
       "netkeiba_id": "2023107146",
@@ -263,7 +263,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "race_status": "重賞勝馬",
       "starts": 5,
       "wins": 3,
-      "major_results": "クイーンC(G3)1着、オークス(G1)2着"
+      "major_results": "クイーンC(G3)1着、オークス(G1)2着、1勝クラス1着、東京新馬1着"
     },
     {
       "netkeiba_id": "2023105825",
@@ -315,7 +315,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "race_status": "重賞勝馬",
       "starts": 5,
       "wins": 2,
-      "major_results": "フローラS(G2)1着、オークス(G1)3着"
+      "major_results": "フローラS(G2)1着、オークス(G1)3着、未勝利1着"
     },
     {
       "netkeiba_id": "2023103687",
@@ -367,7 +367,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "race_status": "重賞勝馬",
       "starts": 4,
       "wins": 2,
-      "major_results": "札幌2歳S(G3)1着"
+      "major_results": "札幌2歳S(G3)1着、函館新馬1着"
     },
     {
       "netkeiba_id": "2023103184",
@@ -393,7 +393,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "race_status": "重賞勝馬",
       "starts": 4,
       "wins": 2,
-      "major_results": "サウジアラビアRC(G3)1着"
+      "major_results": "サウジアラビアRC(G3)1着、新潟新馬1着"
     },
     {
       "netkeiba_id": "2023103444",
@@ -419,7 +419,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "race_status": "重賞勝馬",
       "starts": 2,
       "wins": 2,
-      "major_results": "アルテミスS(G3)1着 ※2歳秋に引退"
+      "major_results": "アルテミスS(G3)1着、新潟新馬1着 ※2歳秋に引退"
     },
     {
       "netkeiba_id": "2023107265",
@@ -445,7 +445,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "race_status": "重賞勝馬",
       "starts": 4,
       "wins": 2,
-      "major_results": "ファンタジーS(G3)1着"
+      "major_results": "ファンタジーS(G3)1着、新馬1着"
     },
     {
       "netkeiba_id": "2023105697",
@@ -471,7 +471,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "race_status": "重賞勝馬",
       "starts": 4,
       "wins": 2,
-      "major_results": "京都2歳S(G3・芝2000)1着"
+      "major_results": "京都2歳S(G3・芝2000)1着、京都新馬1着"
     },
     {
       "netkeiba_id": "2023104683",
@@ -609,13 +609,21 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "2023105685": {
         "rank": 1,
         "sex_rank": 1,
-        "score": 95,
+        "score": 113,
         "race_status": "重賞勝馬",
         "starts": 5,
         "wins": 2
       },
-      "2023105332": {
+      "2023107265": {
         "rank": 2,
+        "sex_rank": 1,
+        "score": 99,
+        "race_status": "重賞勝馬",
+        "starts": 3,
+        "wins": 2
+      },
+      "2023105332": {
+        "rank": 3,
         "sex_rank": 2,
         "score": 93,
         "race_status": "重賞勝馬",
@@ -623,15 +631,15 @@ window.CLASSIC_GENERATIONS["2026"] = {
         "wins": 2
       },
       "2023103444": {
-        "rank": 3,
-        "sex_rank": 1,
+        "rank": 4,
+        "sex_rank": 2,
         "score": 93,
         "race_status": "重賞勝馬",
         "starts": 2,
         "wins": 2
       },
       "2023103184": {
-        "rank": 4,
+        "rank": 5,
         "sex_rank": 3,
         "score": 83,
         "race_status": "重賞勝馬",
@@ -639,19 +647,11 @@ window.CLASSIC_GENERATIONS["2026"] = {
         "wins": 2
       },
       "2023103604": {
-        "rank": 5,
+        "rank": 6,
         "sex_rank": 4,
         "score": 83,
         "race_status": "重賞勝馬",
         "starts": 2,
-        "wins": 2
-      },
-      "2023107265": {
-        "rank": 6,
-        "sex_rank": 2,
-        "score": 81,
-        "race_status": "重賞勝馬",
-        "starts": 3,
         "wins": 2
       },
       "2023107377": {
@@ -795,7 +795,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "2023107153": {
         "rank": 1,
         "sex_rank": 1,
-        "score": 166,
+        "score": 184,
         "race_status": "重賞勝馬",
         "starts": 3,
         "wins": 2
@@ -803,7 +803,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "2023106920": {
         "rank": 2,
         "sex_rank": 1,
-        "score": 152,
+        "score": 170,
         "race_status": "重賞勝馬",
         "starts": 4,
         "wins": 2
@@ -819,7 +819,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "2023105685": {
         "rank": 4,
         "sex_rank": 3,
-        "score": 130,
+        "score": 148,
         "race_status": "重賞勝馬",
         "starts": 6,
         "wins": 2
@@ -827,7 +827,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "2023105078": {
         "rank": 5,
         "sex_rank": 4,
-        "score": 115,
+        "score": 133,
         "race_status": "重賞勝馬",
         "starts": 3,
         "wins": 2
@@ -835,69 +835,77 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "2023107377": {
         "rank": 6,
         "sex_rank": 5,
-        "score": 101,
+        "score": 119,
         "race_status": "重賞勝馬",
         "starts": 3,
         "wins": 2
       },
-      "2023103604": {
-        "rank": 7,
-        "sex_rank": 6,
-        "score": 83,
-        "race_status": "重賞勝馬",
-        "starts": 2,
-        "wins": 2
-      },
       "2023107265": {
-        "rank": 8,
+        "rank": 7,
         "sex_rank": 2,
-        "score": 81,
+        "score": 99,
         "race_status": "重賞勝馬",
         "starts": 3,
         "wins": 2
       },
       "2023105332": {
-        "rank": 9,
-        "sex_rank": 7,
-        "score": 75,
+        "rank": 8,
+        "sex_rank": 6,
+        "score": 93,
         "race_status": "重賞勝馬",
         "starts": 3,
         "wins": 2
       },
       "2023103444": {
-        "rank": 10,
+        "rank": 9,
         "sex_rank": 3,
-        "score": 75,
+        "score": 93,
         "race_status": "重賞勝馬",
         "starts": 2,
         "wins": 2
       },
       "2023103184": {
-        "rank": 11,
-        "sex_rank": 8,
-        "score": 65,
+        "rank": 10,
+        "sex_rank": 7,
+        "score": 83,
         "race_status": "重賞勝馬",
         "starts": 3,
         "wins": 2
       },
       "2023105697": {
-        "rank": 12,
-        "sex_rank": 9,
-        "score": 65,
+        "rank": 11,
+        "sex_rank": 8,
+        "score": 83,
         "race_status": "重賞勝馬",
         "starts": 3,
         "wins": 2
       },
-      "2023105825": {
+      "2023103604": {
+        "rank": 12,
+        "sex_rank": 9,
+        "score": 83,
+        "race_status": "重賞勝馬",
+        "starts": 2,
+        "wins": 2
+      },
+      "2023107146": {
         "rank": 13,
         "sex_rank": 4,
+        "score": 73,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 2,
+        "wins": 2
+      },
+      "2023105825": {
+        "rank": 14,
+        "sex_rank": 5,
         "score": 63,
         "race_status": "重賞・OP好走",
         "starts": 3,
         "wins": 1
       },
       "2023104683": {
-        "rank": 14,
+        "rank": 15,
         "sex_rank": 10,
         "score": 45,
         "race_status": "重賞・OP好走",
@@ -905,20 +913,12 @@ window.CLASSIC_GENERATIONS["2026"] = {
         "wins": 1
       },
       "2023107127": {
-        "rank": 15,
+        "rank": 16,
         "sex_rank": 11,
         "score": 42,
         "race_status": "新馬・未勝利勝馬",
         "starts": 2,
         "wins": 1
-      },
-      "2023107146": {
-        "rank": 16,
-        "sex_rank": 5,
-        "score": 38,
-        "race_status": "新馬・未勝利勝馬",
-        "starts": 2,
-        "wins": 2
       },
       "2023106400": {
         "rank": 17,
@@ -981,7 +981,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "2023107089": {
         "rank": 1,
         "sex_rank": 1,
-        "score": 430,
+        "score": 448,
         "race_status": "重賞勝馬",
         "starts": 4,
         "wins": 4
@@ -989,71 +989,71 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "2023106920": {
         "rank": 2,
         "sex_rank": 1,
-        "score": 290,
+        "score": 308,
+        "race_status": "重賞勝馬",
+        "starts": 5,
+        "wins": 3
+      },
+      "2023102979": {
+        "rank": 3,
+        "sex_rank": 2,
+        "score": 213,
+        "race_status": "重賞勝馬",
+        "starts": 4,
+        "wins": 3
+      },
+      "2023107247": {
+        "rank": 4,
+        "sex_rank": 2,
+        "score": 194,
+        "race_status": "重賞勝馬",
+        "starts": 5,
+        "wins": 3
+      },
+      "2023103604": {
+        "rank": 5,
+        "sex_rank": 3,
+        "score": 193,
         "race_status": "重賞勝馬",
         "starts": 5,
         "wins": 3
       },
       "2023107153": {
-        "rank": 3,
-        "sex_rank": 2,
-        "score": 166,
-        "race_status": "重賞勝馬",
-        "starts": 5,
-        "wins": 2
-      },
-      "2023102979": {
-        "rank": 4,
-        "sex_rank": 2,
-        "score": 160,
-        "race_status": "重賞勝馬",
-        "starts": 4,
-        "wins": 3
-      },
-      "2023107377": {
-        "rank": 5,
-        "sex_rank": 3,
-        "score": 146,
-        "race_status": "重賞勝馬",
-        "starts": 5,
-        "wins": 2
-      },
-      "2023107247": {
         "rank": 6,
         "sex_rank": 4,
-        "score": 141,
+        "score": 184,
         "race_status": "重賞勝馬",
         "starts": 5,
-        "wins": 3
+        "wins": 2
       },
       "2023107146": {
         "rank": 7,
         "sex_rank": 3,
-        "score": 130,
+        "score": 183,
         "race_status": "重賞勝馬",
         "starts": 5,
         "wins": 3
       },
-      "2023105685": {
+      "2023107377": {
         "rank": 8,
         "sex_rank": 5,
-        "score": 130,
+        "score": 164,
+        "race_status": "重賞勝馬",
+        "starts": 5,
+        "wins": 2
+      },
+      "2023105685": {
+        "rank": 9,
+        "sex_rank": 6,
+        "score": 148,
         "race_status": "重賞勝馬",
         "starts": 7,
         "wins": 2
       },
-      "2023103604": {
-        "rank": 9,
-        "sex_rank": 6,
-        "score": 120,
-        "race_status": "重賞勝馬",
-        "starts": 5,
-        "wins": 3
-      },
       "2023105078": {
         "rank": 10,
         "sex_rank": 7,
-        "score": 115,
+        "score": 133,
         "race_status": "重賞勝馬",
         "starts": 5,
         "wins": 2
@@ -1061,47 +1061,47 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "2023107154": {
         "rank": 11,
         "sex_rank": 4,
-        "score": 115,
+        "score": 133,
         "race_status": "重賞勝馬",
         "starts": 5,
         "wins": 2
       },
-      "2023105825": {
-        "rank": 12,
-        "sex_rank": 5,
-        "score": 90,
-        "race_status": "重賞・OP好走",
-        "starts": 5,
-        "wins": 1
-      },
       "2023105332": {
-        "rank": 13,
+        "rank": 12,
         "sex_rank": 8,
-        "score": 75,
+        "score": 93,
         "race_status": "重賞勝馬",
         "starts": 4,
         "wins": 2
       },
       "2023103444": {
-        "rank": 14,
-        "sex_rank": 6,
-        "score": 75,
+        "rank": 13,
+        "sex_rank": 5,
+        "score": 93,
         "race_status": "重賞勝馬",
         "starts": 2,
         "wins": 2
       },
       "2023107265": {
-        "rank": 15,
-        "sex_rank": 7,
-        "score": 75,
+        "rank": 14,
+        "sex_rank": 6,
+        "score": 93,
         "race_status": "重賞勝馬",
         "starts": 4,
         "wins": 2
       },
+      "2023105825": {
+        "rank": 15,
+        "sex_rank": 7,
+        "score": 90,
+        "race_status": "重賞・OP好走",
+        "starts": 5,
+        "wins": 1
+      },
       "2023103184": {
         "rank": 16,
         "sex_rank": 9,
-        "score": 65,
+        "score": 83,
         "race_status": "重賞勝馬",
         "starts": 4,
         "wins": 2
@@ -1109,7 +1109,7 @@ window.CLASSIC_GENERATIONS["2026"] = {
       "2023105697": {
         "rank": 17,
         "sex_rank": 10,
-        "score": 65,
+        "score": 83,
         "race_status": "重賞勝馬",
         "starts": 4,
         "wins": 2

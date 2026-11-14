@@ -1746,7 +1746,7 @@ PERFORMANCE_HORSES = [
         "race_status": "OP・1勝クラス勝馬",
         "starts": 4,
         "wins": 2,
-        "major_results": "2026年アイビーS(L・東京芝1800)1着"
+        "major_results": "2026年アイビーS(L・東京芝1800)1着、未勝利1着"
     },
     {
         "netkeiba_id": "2024104442",
@@ -1772,7 +1772,7 @@ PERFORMANCE_HORSES = [
         "race_status": "OP・1勝クラス勝馬",
         "starts": 6,
         "wins": 2,
-        "major_results": "2026年萩S(L・京都芝1800)1着"
+        "major_results": "2026年萩S(L・京都芝1800)1着、未勝利1着"
     },
     {
         "netkeiba_id": "2024106264",
@@ -1902,7 +1902,7 @@ PERFORMANCE_HORSES = [
         "race_status": "OP・1勝クラス勝馬",
         "starts": 2,
         "wins": 2,
-        "major_results": "2026年11月百日草特別(1勝・東京芝2000)1着"
+        "major_results": "2026年11月百日草特別(1勝・東京芝2000)1着、新馬1着"
     },
     {
         "netkeiba_id": "2024102281",
@@ -2242,7 +2242,7 @@ PERFORMANCE_HORSES = [
         "race_status": "OP・1勝クラス勝馬",
         "starts": 3,
         "wins": 2,
-        "major_results": "2026年紫菊賞(1勝・京都芝2000)1着"
+        "major_results": "2026年紫菊賞(1勝・京都芝2000)1着、未勝利1着"
     },
     {
         "netkeiba_id": "2024106454",

@@ -32,7 +32,7 @@ HORSES_2026 = [
         "timeline": {
             "2025-11-08": {"race_status": "未出走", "starts": 0, "wins": 0, "major_results": "未出走(翌11/9京都芝2000新馬デビュー)"},
             "2025-12-28": {"race_status": "重賞勝馬", "starts": 2, "wins": 2, "major_results": "ホープフルS(G1)1着、11/9京都新馬(芝2000)3馬身差1着"},
-            "2026-05-31": {"race_status": "重賞勝馬", "starts": 4, "wins": 4, "major_results": "2026年日本ダービー(G1)1着、皐月賞(G1)1着、ホープフルS(G1)1着"},
+            "2026-05-31": {"race_status": "重賞勝馬", "starts": 4, "wins": 4, "major_results": "2026年日本ダービー(G1)1着、皐月賞(G1)1着、ホープフルS(G1)1着、京都新馬1着"},
         },
     },
     {
@@ -59,7 +59,7 @@ HORSES_2026 = [
         "timeline": {
             "2025-11-08": {"race_status": "新馬・未勝利勝馬", "starts": 1, "wins": 1, "major_results": "9月阪神新馬(ダ1800)3馬身半差1着"},
             "2025-12-28": {"race_status": "新馬・未勝利勝馬", "starts": 1, "wins": 1, "major_results": "9月阪神新馬(ダ1800)3馬身半差1着"},
-            "2026-05-31": {"race_status": "重賞勝馬", "starts": 4, "wins": 3, "major_results": "2026年オークス(G1・東京芝2400)1着"},
+            "2026-05-31": {"race_status": "重賞勝馬", "starts": 4, "wins": 3, "major_results": "2026年オークス(G1・東京芝2400)1着、1勝クラス1着、阪神新馬(ダ1800)1着"},
         },
     },
     {
@@ -85,8 +85,8 @@ HORSES_2026 = [
         "selection_source": "両方(事前+戦績)",
         "timeline": {
             "2025-11-08": {"race_status": "重賞・OP好走", "starts": 3, "wins": 1, "major_results": "中京2歳S(G3)2着、未勝利1着、6月新馬5着"},
-            "2025-12-28": {"race_status": "重賞勝馬", "starts": 4, "wins": 2, "major_results": "阪神JF(G1)1着、中京2歳S(G3)2着"},
-            "2026-05-31": {"race_status": "重賞勝馬", "starts": 5, "wins": 3, "major_results": "2026年桜花賞(G1)1着、阪神JF(G1)1着"},
+            "2025-12-28": {"race_status": "重賞勝馬", "starts": 4, "wins": 2, "major_results": "阪神JF(G1)1着、中京2歳S(G3)2着、未勝利1着"},
+            "2026-05-31": {"race_status": "重賞勝馬", "starts": 5, "wins": 3, "major_results": "2026年桜花賞(G1)1着、阪神JF(G1)1着、未勝利1着"},
         },
     },
     {
@@ -112,8 +112,8 @@ HORSES_2026 = [
         "selection_source": "両方(事前+戦績)",
         "timeline": {
             "2025-11-08": {"race_status": "新馬・未勝利勝馬", "starts": 1, "wins": 1, "major_results": "8月中京新馬(芝1600)5馬身差1着"},
-            "2025-12-28": {"race_status": "重賞勝馬", "starts": 3, "wins": 2, "major_results": "朝日杯FS(G1)1着、デイリー杯2歳S(G2)2着"},
-            "2026-05-31": {"race_status": "重賞勝馬", "starts": 5, "wins": 2, "major_results": "朝日杯FS(G1)1着、デイリー杯2歳S(G2)2着"},
+            "2025-12-28": {"race_status": "重賞勝馬", "starts": 3, "wins": 2, "major_results": "朝日杯FS(G1)1着、デイリー杯2歳S(G2)2着、中京新馬1着"},
+            "2026-05-31": {"race_status": "重賞勝馬", "starts": 5, "wins": 2, "major_results": "朝日杯FS(G1)1着、デイリー杯2歳S(G2)2着、中京新馬1着"},
         },
     },
     {
@@ -139,8 +139,8 @@ HORSES_2026 = [
         "selection_source": "両方(事前+戦績)",
         "timeline": {
             "2025-11-08": {"race_status": "新馬・未勝利勝馬", "starts": 2, "wins": 1, "major_results": "未勝利1着、8月新潟新馬(芝1800)2着"},
-            "2025-12-28": {"race_status": "重賞勝馬", "starts": 3, "wins": 2, "major_results": "東スポ杯2歳S(G2・東京芝1800)1着"},
-            "2026-05-31": {"race_status": "重賞勝馬", "starts": 5, "wins": 2, "major_results": "日本ダービー(G1)2着、東スポ杯2歳S(G2)1着"},
+            "2025-12-28": {"race_status": "重賞勝馬", "starts": 3, "wins": 2, "major_results": "東スポ杯2歳S(G2・東京芝1800)1着、未勝利1着"},
+            "2026-05-31": {"race_status": "重賞勝馬", "starts": 5, "wins": 2, "major_results": "日本ダービー(G1)2着、東スポ杯2歳S(G2)1着、未勝利1着"},
         },
     },
     {
@@ -165,9 +165,9 @@ HORSES_2026 = [
         "netkeiba_url": "https://db.netkeiba.com/horse/2023105685/",
         "selection_source": "戦績評価(重賞/OP/新馬)",
         "timeline": {
-            "2025-11-08": {"race_status": "重賞勝馬", "starts": 5, "wins": 2, "major_results": "京王杯2歳S(G2)1着、もみじS(OP)2着"},
-            "2025-12-28": {"race_status": "重賞勝馬", "starts": 6, "wins": 2, "major_results": "朝日杯FS(G1)2着、京王杯2歳S(G2)1着"},
-            "2026-05-31": {"race_status": "重賞勝馬", "starts": 7, "wins": 2, "major_results": "朝日杯FS(G1)2着、京王杯2歳S(G2)1着"},
+            "2025-11-08": {"race_status": "重賞勝馬", "starts": 5, "wins": 2, "major_results": "京王杯2歳S(G2)1着、もみじS(OP)2着、未勝利1着"},
+            "2025-12-28": {"race_status": "重賞勝馬", "starts": 6, "wins": 2, "major_results": "朝日杯FS(G1)2着、京王杯2歳S(G2)1着、未勝利1着"},
+            "2026-05-31": {"race_status": "重賞勝馬", "starts": 7, "wins": 2, "major_results": "朝日杯FS(G1)2着、京王杯2歳S(G2)1着、未勝利1着"},
         },
     },
     {
@@ -194,7 +194,7 @@ HORSES_2026 = [
         "timeline": {
             "2025-11-08": {"race_status": "重賞勝馬", "starts": 2, "wins": 2, "major_results": "新潟2歳S(G3)1着、新馬1着"},
             "2025-12-28": {"race_status": "重賞勝馬", "starts": 2, "wins": 2, "major_results": "新潟2歳S(G3)1着、新馬1着"},
-            "2026-05-31": {"race_status": "重賞勝馬", "starts": 5, "wins": 3, "major_results": "皐月賞(G1)2着、新潟2歳S(G3)1着"},
+            "2026-05-31": {"race_status": "重賞勝馬", "starts": 5, "wins": 3, "major_results": "皐月賞(G1)2着、共同通信杯(G3)1着、新潟2歳S(G3)1着、新馬1着"},
         },
     },
     {
@@ -220,8 +220,8 @@ HORSES_2026 = [
         "selection_source": "戦績評価(重賞/OP/新馬)",
         "timeline": {
             "2025-11-08": {"race_status": "新馬・未勝利勝馬", "starts": 1, "wins": 1, "major_results": "10/18東京新馬(芝1600)1着"},
-            "2025-12-28": {"race_status": "重賞勝馬", "starts": 3, "wins": 2, "major_results": "デイリー杯2歳S(G2)1着、朝日杯FS(G1)3着"},
-            "2026-05-31": {"race_status": "重賞勝馬", "starts": 5, "wins": 2, "major_results": "デイリー杯2歳S(G2)1着、朝日杯FS(G1)3着"},
+            "2025-12-28": {"race_status": "重賞勝馬", "starts": 3, "wins": 2, "major_results": "デイリー杯2歳S(G2)1着、朝日杯FS(G1)3着、東京新馬1着"},
+            "2026-05-31": {"race_status": "重賞勝馬", "starts": 5, "wins": 2, "major_results": "デイリー杯2歳S(G2)1着、朝日杯FS(G1)3着、東京新馬1着"},
         },
     },
     {
@@ -248,7 +248,7 @@ HORSES_2026 = [
         "timeline": {
             "2025-11-08": {"race_status": "未出走", "starts": 0, "wins": 0, "major_results": "未出走(11/30東京芝1800デビュー)"},
             "2025-12-28": {"race_status": "出走済(未勝利)", "starts": 1, "wins": 0, "major_results": "11/30東京新馬(芝1800)2着"},
-            "2026-05-31": {"race_status": "重賞勝馬", "starts": 5, "wins": 3, "major_results": "弥生賞(G2)1着、日本ダービー(G1)3着"},
+            "2026-05-31": {"race_status": "重賞勝馬", "starts": 5, "wins": 3, "major_results": "弥生賞(G2)1着、日本ダービー(G1)3着、1勝クラス1着、未勝利1着"},
         },
     },
     {
@@ -274,8 +274,8 @@ HORSES_2026 = [
         "selection_source": "両方(事前+戦績)",
         "timeline": {
             "2025-11-08": {"race_status": "新馬・未勝利勝馬", "starts": 1, "wins": 1, "major_results": "6月東京新馬(芝1600)1着"},
-            "2025-12-28": {"race_status": "新馬・未勝利勝馬", "starts": 2, "wins": 2, "major_results": "1勝クラス勝、6月東京新馬(芝1600)1着"},
-            "2026-05-31": {"race_status": "重賞勝馬", "starts": 5, "wins": 3, "major_results": "クイーンC(G3)1着、オークス(G1)2着"},
+            "2025-12-28": {"race_status": "新馬・未勝利勝馬", "starts": 2, "wins": 2, "major_results": "1勝クラス1着、6月東京新馬(芝1600)1着"},
+            "2026-05-31": {"race_status": "重賞勝馬", "starts": 5, "wins": 3, "major_results": "クイーンC(G3)1着、オークス(G1)2着、1勝クラス1着、東京新馬1着"},
         },
     },
     {
@@ -329,7 +329,7 @@ HORSES_2026 = [
         "timeline": {
             "2025-11-08": {"race_status": "新馬・未勝利勝馬", "starts": 2, "wins": 1, "major_results": "未勝利1着、8月新潟新馬(芝1800)2着"},
             "2025-12-28": {"race_status": "新馬・未勝利勝馬", "starts": 2, "wins": 1, "major_results": "未勝利1着、8月新潟新馬(芝1800)2着"},
-            "2026-05-31": {"race_status": "重賞勝馬", "starts": 5, "wins": 2, "major_results": "フローラS(G2)1着、オークス(G1)3着"},
+            "2026-05-31": {"race_status": "重賞勝馬", "starts": 5, "wins": 2, "major_results": "フローラS(G2)1着、オークス(G1)3着、未勝利1着"},
         },
     },
     {
@@ -382,8 +382,8 @@ HORSES_2026 = [
         "selection_source": "両方(事前+戦績)",
         "timeline": {
             "2025-11-08": {"race_status": "重賞勝馬", "starts": 2, "wins": 2, "major_results": "札幌2歳S(G3)1着、函館新馬(芝1800)1着"},
-            "2025-12-28": {"race_status": "重賞勝馬", "starts": 3, "wins": 2, "major_results": "札幌2歳S(G3)1着、ホープフルS 14着"},
-            "2026-05-31": {"race_status": "重賞勝馬", "starts": 4, "wins": 2, "major_results": "札幌2歳S(G3)1着"},
+            "2025-12-28": {"race_status": "重賞勝馬", "starts": 3, "wins": 2, "major_results": "札幌2歳S(G3)1着、函館新馬1着、ホープフルS 14着"},
+            "2026-05-31": {"race_status": "重賞勝馬", "starts": 4, "wins": 2, "major_results": "札幌2歳S(G3)1着、函館新馬1着"},
         },
     },
     {
@@ -409,8 +409,8 @@ HORSES_2026 = [
         "selection_source": "戦績評価(重賞/OP/新馬)",
         "timeline": {
             "2025-11-08": {"race_status": "重賞勝馬", "starts": 2, "wins": 2, "major_results": "サウジアラビアRC(G3)1着、新潟新馬1着"},
-            "2025-12-28": {"race_status": "重賞勝馬", "starts": 3, "wins": 2, "major_results": "サウジアラビアRC(G3)1着、朝日杯FS 4着"},
-            "2026-05-31": {"race_status": "重賞勝馬", "starts": 4, "wins": 2, "major_results": "サウジアラビアRC(G3)1着"},
+            "2025-12-28": {"race_status": "重賞勝馬", "starts": 3, "wins": 2, "major_results": "サウジアラビアRC(G3)1着、新潟新馬1着、朝日杯FS 4着"},
+            "2026-05-31": {"race_status": "重賞勝馬", "starts": 4, "wins": 2, "major_results": "サウジアラビアRC(G3)1着、新潟新馬1着"},
         },
     },
     {
@@ -436,8 +436,8 @@ HORSES_2026 = [
         "selection_source": "両方(事前+戦績)",
         "timeline": {
             "2025-11-08": {"race_status": "重賞勝馬", "starts": 2, "wins": 2, "major_results": "アルテミスS(G3)1着、新潟新馬1着"},
-            "2025-12-28": {"race_status": "重賞勝馬", "starts": 2, "wins": 2, "major_results": "アルテミスS(G3)1着 ※11/14登録抹消"},
-            "2026-05-31": {"race_status": "重賞勝馬", "starts": 2, "wins": 2, "major_results": "アルテミスS(G3)1着 ※2歳秋に引退"},
+            "2025-12-28": {"race_status": "重賞勝馬", "starts": 2, "wins": 2, "major_results": "アルテミスS(G3)1着、新潟新馬1着 ※11/14登録抹消"},
+            "2026-05-31": {"race_status": "重賞勝馬", "starts": 2, "wins": 2, "major_results": "アルテミスS(G3)1着、新潟新馬1着 ※2歳秋に引退"},
         },
     },
     {
@@ -462,9 +462,9 @@ HORSES_2026 = [
         "netkeiba_url": "https://db.netkeiba.com/horse/2023107265/",
         "selection_source": "両方(事前+戦績)",
         "timeline": {
-            "2025-11-08": {"race_status": "重賞勝馬", "starts": 3, "wins": 2, "major_results": "ファンタジーS(G3)1着、新潟2歳S(G3)3着"},
-            "2025-12-28": {"race_status": "重賞勝馬", "starts": 3, "wins": 2, "major_results": "ファンタジーS(G3)1着、新潟2歳S(G3)3着"},
-            "2026-05-31": {"race_status": "重賞勝馬", "starts": 4, "wins": 2, "major_results": "ファンタジーS(G3)1着"},
+            "2025-11-08": {"race_status": "重賞勝馬", "starts": 3, "wins": 2, "major_results": "ファンタジーS(G3)1着、新潟2歳S(G3)3着、新馬1着"},
+            "2025-12-28": {"race_status": "重賞勝馬", "starts": 3, "wins": 2, "major_results": "ファンタジーS(G3)1着、新潟2歳S(G3)3着、新馬1着"},
+            "2026-05-31": {"race_status": "重賞勝馬", "starts": 4, "wins": 2, "major_results": "ファンタジーS(G3)1着、新馬1着"},
         },
     },
     {
@@ -490,8 +490,8 @@ HORSES_2026 = [
         "selection_source": "戦績評価(重賞/OP/新馬)",
         "timeline": {
             "2025-11-08": {"race_status": "新馬・未勝利勝馬", "starts": 1, "wins": 1, "major_results": "10/13京都新馬(芝1800)1着"},
-            "2025-12-28": {"race_status": "重賞勝馬", "starts": 3, "wins": 2, "major_results": "京都2歳S(G3・芝2000)1着、ホープフルS 8着"},
-            "2026-05-31": {"race_status": "重賞勝馬", "starts": 4, "wins": 2, "major_results": "京都2歳S(G3・芝2000)1着"},
+            "2025-12-28": {"race_status": "重賞勝馬", "starts": 3, "wins": 2, "major_results": "京都2歳S(G3・芝2000)1着、京都新馬1着、ホープフルS 8着"},
+            "2026-05-31": {"race_status": "重賞勝馬", "starts": 4, "wins": 2, "major_results": "京都2歳S(G3・芝2000)1着、京都新馬1着"},
         },
     },
     {
@@ -543,7 +543,7 @@ HORSES_2026 = [
         "netkeiba_url": "https://db.netkeiba.com/horse/2023106400/",
         "selection_source": "戦績評価(重賞/OP/新馬)",
         "timeline": {
-            "2025-11-08": {"race_status": "新馬・未勝利勝馬", "starts": 2, "wins": 1, "major_results": "2歳1勝"},
+            "2025-11-08": {"race_status": "新馬・未勝利勝馬", "starts": 2, "wins": 1, "major_results": "2歳新馬1着"},
             "2025-12-28": {"race_status": "重賞・OP好走", "starts": 4, "wins": 1, "major_results": "ホープフルS(G1)3着"},
             "2026-05-31": {"race_status": "重賞・OP好走", "starts": 5, "wins": 1, "major_results": "ホープフルS(G1)3着"},
         },
@@ -570,7 +570,7 @@ HORSES_2026 = [
         "netkeiba_url": "https://db.netkeiba.com/horse/2023105572/",
         "selection_source": "戦績評価(重賞/OP/新馬)",
         "timeline": {
-            "2025-11-08": {"race_status": "新馬・未勝利勝馬", "starts": 2, "wins": 1, "major_results": "2歳1勝"},
+            "2025-11-08": {"race_status": "新馬・未勝利勝馬", "starts": 2, "wins": 1, "major_results": "2歳未勝利1着"},
             "2025-12-28": {"race_status": "重賞・OP好走", "starts": 4, "wins": 1, "major_results": "阪神JF(G1)3着"},
             "2026-05-31": {"race_status": "重賞・OP好走", "starts": 5, "wins": 1, "major_results": "阪神JF(G1)3着"},
         },
