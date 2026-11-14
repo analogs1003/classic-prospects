@@ -3,7 +3,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
   "generation_id": "2027",
   "season_label": "2027クラシック世代（現2歳・2024年産）",
   "period_label": "〜2027年 日本ダービー・オークスまで",
-  "updated_at": "2026-11-14 01:26",
+  "updated_at": "2026-11-14 11:48",
   "horses": [
     {
       "netkeiba_id": "2024106655",
@@ -1925,7 +1925,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
       "netkeiba_url": "https://db.netkeiba.com/horse/2024105780/",
       "selection_source": "戦績評価(重賞/OP/新馬)",
       "race_status": "OP・1勝クラス勝馬",
-      "starts": null,
+      "starts": 4,
       "wins": 2,
       "major_results": "2026年アイビーS(L・東京芝1800)1着"
     },
@@ -1951,7 +1951,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
       "netkeiba_url": "https://db.netkeiba.com/horse/2024104442/",
       "selection_source": "戦績評価(重賞/OP/新馬)",
       "race_status": "OP・1勝クラス勝馬",
-      "starts": null,
+      "starts": 6,
       "wins": 2,
       "major_results": "2026年萩S(L・京都芝1800)1着"
     },
@@ -2081,7 +2081,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
       "netkeiba_url": "https://db.netkeiba.com/horse/2024106386/",
       "selection_source": "戦績評価(重賞/OP/新馬)",
       "race_status": "OP・1勝クラス勝馬",
-      "starts": null,
+      "starts": 2,
       "wins": 2,
       "major_results": "2026年11月百日草特別(1勝・東京芝2000)1着"
     },
@@ -2393,9 +2393,9 @@ window.CLASSIC_GENERATIONS["2027"] = {
       "netkeiba_url": "https://db.netkeiba.com/horse/2024105568/",
       "selection_source": "戦績評価(重賞/OP/新馬)",
       "race_status": "重賞勝馬",
-      "starts": null,
+      "starts": 3,
       "wins": 2,
-      "major_results": "2026年函館2歳S(G3)1着、ファンタジーS(G3)2着"
+      "major_results": "2026年函館2歳S(G3)1着、ファンタジーS(G3)2着、函館新馬1着"
     },
     {
       "netkeiba_id": "2024106124",
@@ -2632,8 +2632,16 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "starts": 2,
         "wins": 2
       },
-      "2024105444": {
+      "2024105568": {
         "rank": 4,
+        "sex_rank": 2,
+        "score": 95,
+        "race_status": "重賞勝馬",
+        "starts": 3,
+        "wins": 2
+      },
+      "2024105444": {
+        "rank": 5,
         "sex_rank": 3,
         "score": 83,
         "race_status": "重賞勝馬",
@@ -2641,35 +2649,27 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 2
       },
       "2024107165": {
-        "rank": 5,
-        "sex_rank": 2,
+        "rank": 6,
+        "sex_rank": 3,
         "score": 83,
         "race_status": "重賞勝馬",
         "starts": 2,
         "wins": 2
       },
       "2024106712": {
-        "rank": 6,
-        "sex_rank": 3,
+        "rank": 7,
+        "sex_rank": 4,
         "score": 83,
         "race_status": "重賞勝馬",
         "starts": 3,
         "wins": 2
       },
       "2024106687": {
-        "rank": 7,
+        "rank": 8,
         "sex_rank": 4,
         "score": 83,
         "race_status": "重賞勝馬",
         "starts": 2,
-        "wins": 2
-      },
-      "2024105568": {
-        "rank": 8,
-        "sex_rank": 4,
-        "score": 77,
-        "race_status": "重賞勝馬",
-        "starts": null,
         "wins": 2
       },
       "2024106454": {
@@ -2725,7 +2725,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "sex_rank": 9,
         "score": 49,
         "race_status": "OP・1勝クラス勝馬",
-        "starts": null,
+        "starts": 6,
         "wins": 2
       },
       "2024105780": {
@@ -2733,7 +2733,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "sex_rank": 10,
         "score": 49,
         "race_status": "OP・1勝クラス勝馬",
-        "starts": null,
+        "starts": 4,
         "wins": 2
       },
       "2024106649": {
@@ -2757,7 +2757,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "sex_rank": 13,
         "score": 45,
         "race_status": "OP・1勝クラス勝馬",
-        "starts": null,
+        "starts": 2,
         "wins": 2
       },
       "2024106124": {

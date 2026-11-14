@@ -24,8 +24,16 @@
       "starts": 2,
       "wins": 2
     },
-    "2024105444": {
+    "2024105568": {
       "rank": 4,
+      "sex_rank": 2,
+      "score": 95,
+      "race_status": "重賞勝馬",
+      "starts": 3,
+      "wins": 2
+    },
+    "2024105444": {
+      "rank": 5,
       "sex_rank": 3,
       "score": 83,
       "race_status": "重賞勝馬",
@@ -33,35 +41,27 @@
       "wins": 2
     },
     "2024107165": {
-      "rank": 5,
-      "sex_rank": 2,
+      "rank": 6,
+      "sex_rank": 3,
       "score": 83,
       "race_status": "重賞勝馬",
       "starts": 2,
       "wins": 2
     },
     "2024106712": {
-      "rank": 6,
-      "sex_rank": 3,
+      "rank": 7,
+      "sex_rank": 4,
       "score": 83,
       "race_status": "重賞勝馬",
       "starts": 3,
       "wins": 2
     },
     "2024106687": {
-      "rank": 7,
+      "rank": 8,
       "sex_rank": 4,
       "score": 83,
       "race_status": "重賞勝馬",
       "starts": 2,
-      "wins": 2
-    },
-    "2024105568": {
-      "rank": 8,
-      "sex_rank": 4,
-      "score": 77,
-      "race_status": "重賞勝馬",
-      "starts": null,
       "wins": 2
     },
     "2024106454": {
@@ -117,7 +117,7 @@
       "sex_rank": 9,
       "score": 49,
       "race_status": "OP・1勝クラス勝馬",
-      "starts": null,
+      "starts": 6,
       "wins": 2
     },
     "2024105780": {
@@ -125,7 +125,7 @@
       "sex_rank": 10,
       "score": 49,
       "race_status": "OP・1勝クラス勝馬",
-      "starts": null,
+      "starts": 4,
       "wins": 2
     },
     "2024106649": {
@@ -149,7 +149,7 @@
       "sex_rank": 13,
       "score": 45,
       "race_status": "OP・1勝クラス勝馬",
-      "starts": null,
+      "starts": 2,
       "wins": 2
     },
     "2024106124": {

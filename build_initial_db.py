@@ -1744,7 +1744,7 @@ PERFORMANCE_HORSES = [
         "netkeiba_url": "https://db.netkeiba.com/horse/2024105780/",
         "selection_source": "戦績評価(重賞/OP/新馬)",
         "race_status": "OP・1勝クラス勝馬",
-        "starts": None,
+        "starts": 4,
         "wins": 2,
         "major_results": "2026年アイビーS(L・東京芝1800)1着"
     },
@@ -1770,7 +1770,7 @@ PERFORMANCE_HORSES = [
         "netkeiba_url": "https://db.netkeiba.com/horse/2024104442/",
         "selection_source": "戦績評価(重賞/OP/新馬)",
         "race_status": "OP・1勝クラス勝馬",
-        "starts": None,
+        "starts": 6,
         "wins": 2,
         "major_results": "2026年萩S(L・京都芝1800)1着"
     },
@@ -1900,7 +1900,7 @@ PERFORMANCE_HORSES = [
         "netkeiba_url": "https://db.netkeiba.com/horse/2024106386/",
         "selection_source": "戦績評価(重賞/OP/新馬)",
         "race_status": "OP・1勝クラス勝馬",
-        "starts": None,
+        "starts": 2,
         "wins": 2,
         "major_results": "2026年11月百日草特別(1勝・東京芝2000)1着"
     },
@@ -2214,9 +2214,9 @@ PERFORMANCE_HORSES = [
         "netkeiba_url": "https://db.netkeiba.com/horse/2024105568/",
         "selection_source": "戦績評価(重賞/OP/新馬)",
         "race_status": "重賞勝馬",
-        "starts": None,
+        "starts": 3,
         "wins": 2,
-        "major_results": "2026年函館2歳S(G3)1着、ファンタジーS(G3)2着"
+        "major_results": "2026年函館2歳S(G3)1着、ファンタジーS(G3)2着、函館新馬1着"
     },
     {
         "netkeiba_id": "2024106124",
