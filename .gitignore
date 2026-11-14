@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+
+# ローカルのSQLite DBはスクリプトから再生成できるため除外
+data/horses.db
+

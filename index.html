@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>クラシック世代 有力馬ランキング DB</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero-inner">
+      <div class="hero-top">
+        <div class="brand">
+          <span class="brand-badge">CLASSIC PROSPECTS</span>
+          <h1 id="page-title">クラシック有力馬ランキング</h1>
+          <p class="subtitle" id="season-subtitle">読み込み中...</p>
+        </div>
+        <div class="hero-controls">
+          <label class="select-group">
+            <span>世代シーズン</span>
+            <select id="generation-select" aria-label="世代シーズン選択"></select>
+          </label>
+          <div class="updated-pill">
+            <span class="dot"></span>
+            <span>最終更新: <strong id="updated-at">--</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats-grid" id="stats-grid">
+        <div class="stat-card">
+          <span class="stat-label">登録頭数</span>
+          <strong class="stat-value" id="stat-total">-</strong>
+          <span class="stat-sub" id="stat-sex-split">牡 - / 牝 -</span>
+        </div>
+        <div class="stat-card accent-gold">
+          <span class="stat-label">重賞勝馬</span>
+          <strong class="stat-value" id="stat-graded">-</strong>
+          <span class="stat-sub">G1・G2・G3タイトル</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">複数勝利馬</span>
+          <strong class="stat-value" id="stat-multi-win">-</strong>
+          <span class="stat-sub">2勝以上（OP・1勝含む）</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">勝ち上がり済</span>
+          <strong class="stat-value" id="stat-winners">-</strong>
+          <span class="stat-sub">未出走 <span id="stat-unraced">-</span> 頭</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <!-- 路線タブ -->
+    <nav class="tabs" role="tablist" aria-label="路線別ランキング">
+      <button class="tab-btn active" data-tab="all" role="tab">総合ランキング</button>
+      <button class="tab-btn" data-tab="colt" role="tab">牡馬（皐月賞・ダービー）</button>
+      <button class="tab-btn" data-tab="filly" role="tab">牝馬（桜花賞・オークス）</button>
+      <button class="tab-btn" data-tab="unraced" role="tab">未出走・注目待機馬</button>
+    </nav>
+
+    <!-- フィルター＆検索バー -->
+    <section class="toolbar" aria-label="検索と絞り込み">
+      <div class="search-box">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="馬名・父・母・調教師・馬主・戦績で検索..."
+        />
+      </div>
+      <div class="filters">
+        <select id="filter-source" aria-label="選定ソース">
+          <option value="all">選定ソース: すべて</option>
+          <option value="両方(事前+戦績)">両方 (事前＋戦績)</option>
+          <option value="戦績評価(重賞/OP/新馬)">戦績評価のみ</option>
+          <option value="事前評価(血統/価格)">事前評価のみ</option>
+        </select>
+        <select id="filter-status" aria-label="戦績ステータス">
+          <option value="all">戦績: すべて</option>
+          <option value="重賞勝馬">重賞勝馬</option>
+          <option value="OP・1勝クラス勝馬">OP・1勝クラス勝馬</option>
+          <option value="重賞・OP好走">重賞・OP好走</option>
+          <option value="新馬・未勝利勝馬">新馬・未勝利勝馬</option>
+          <option value="出走済(未勝利)">出走済(未勝利)</option>
+          <option value="未出走">未出走</option>
+        </select>
+        <select id="filter-tc" aria-label="所属">
+          <option value="all">所属: すべて</option>
+          <option value="美浦">美浦</option>
+          <option value="栗東">栗東</option>
+        </select>
+        <select id="sort-by" aria-label="並び順">
+          <option value="score">並び順: クラシック指数</option>
+          <option value="wins">並び順: 勝利数</option>
+          <option value="price">並び順: セリ/募集価格</option>
+          <option value="name">並び順: 馬名順</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- スコア算出基準アコーディオン -->
+    <details class="scoring-info">
+      <summary>クラシック指数（ランキング算出ロジック）の見方</summary>
+      <div class="scoring-body">
+        <p>各開催日のDB更新に合わせて、<strong>戦績ポイント（実績）</strong>と<strong>事前評価ポイント（血統・価格・期待度）</strong>の合計で自動ランキングします。</p>
+        <ul>
+          <li><strong>戦績Pt</strong>: G1勝利(+120) / G2勝利(+75) / G3勝利(+55) / L・OP・1勝クラス勝利(+35) / 重賞連対・好走(+28〜32) / 新馬・未勝利勝ち(+18) / 複数勝利ボーナス(+10/勝) / 圧勝・高指数ボーナス(+5)</li>
+          <li><strong>事前Pt</strong>: セレクト等1億円以上(+6〜14) / 事前評価リスト選出(+6) / 事前＋戦績の両立ボーナス(+4)</li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- 件数表示 -->
+    <div class="results-meta">
+      <span>表示中: <strong id="result-count">0</strong> 頭</span>
+      <button id="reset-filters" class="btn-text" type="button">条件をリセット</button>
+    </div>
+
+    <!-- ランキングテーブル -->
+    <div class="table-wrap">
+      <table class="ranking-table">
+        <thead>
+          <tr>
+            <th class="col-rank">順位</th>
+            <th class="col-score">指数</th>
+            <th class="col-horse">馬名 / 血統 (父・母・母父)</th>
+            <th class="col-meta">性齢・所属</th>
+            <th class="col-source">選定 / ステータス</th>
+            <th class="col-record">戦績</th>
+            <th class="col-results">主な戦績 / 注目メモ</th>
+            <th class="col-price">価格(万円)</th>
+          </tr>
+        </thead>
+        <tbody id="ranking-tbody"></tbody>
+      </table>
+      <div id="empty-state" class="empty-state hidden">
+        条件に一致する馬が見つかりませんでした。検索条件を変更してください。
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>クラシック有力馬データベース — 世代区切り: 日本ダービー・オークス終了まで（終了後に次世代シーズンへ切替）</p>
+      <p class="footer-note">データ更新: <code>build_initial_db.py</code> を実行してCSV / JSON / JS / SQLiteを一括再生成</p>
+    </div>
+  </footer>
+
+  <!-- 詳細モーダル -->
+  <div id="horse-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-name">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close" aria-label="閉じる">&times;</button>
+      <div class="modal-header">
+        <div class="modal-badges" id="modal-badges"></div>
+        <h2 id="modal-name">-</h2>
+        <p class="modal-foal" id="modal-foal">-</p>
+      </div>
+      <div class="modal-score-bar" id="modal-score-bar"></div>
+      <div class="modal-grid" id="modal-grid"></div>
+      <div class="modal-notes">
+        <div class="note-block" id="modal-results-block">
+          <h3>主な戦績</h3>
+          <p id="modal-results">-</p>
+        </div>
+        <div class="note-block">
+          <h3>血統・選定メモ</h3>
+          <p id="modal-pedigree">-</p>
+        </div>
+        <div class="note-block" id="modal-history-block">
+          <h3>クラシックへの軌跡（ランキング順位・指数推移）</h3>
+          <div id="modal-history" class="history-list"></div>
+        </div>
+      </div>
+      <div class="modal-actions">
+        <a id="modal-netkeiba" href="#" target="_blank" rel="noopener noreferrer" class="btn-primary">
+          netkeiba 個別ページを開く ↗
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 世代別データJS（file://直接閲覧・ローカルサーバー両対応） -->
+  <script src="data/classic_2027_prospects.js"></script>
+  <script src="data/classic_2026_prospects.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
