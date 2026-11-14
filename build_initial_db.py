@@ -2665,14 +2665,34 @@ def update_snapshots(out_dir: Path, merged_horses: list, snapshot_date: str):
     )
 
     sex_counter = {"牡": 0, "牝": 0}
+    last_overall_score = None
+    last_overall_rank = 0
+    last_sex_score = {"牡": None, "牝": None}
+    last_sex_rank = {"牡": 0, "牝": 0}
+
     day_snap = {}
     for idx, h in enumerate(ranked, start=1):
         sex = h["sex"]
+        score = calculate_score(h)
+        if score != last_overall_score:
+            overall_rank = idx
+            last_overall_score = score
+            last_overall_rank = overall_rank
+        else:
+            overall_rank = last_overall_rank
+
         sex_counter[sex] = sex_counter.get(sex, 0) + 1
+        if score != last_sex_score.get(sex):
+            s_rank = sex_counter[sex]
+            last_sex_score[sex] = score
+            last_sex_rank[sex] = s_rank
+        else:
+            s_rank = last_sex_rank[sex]
+
         day_snap[h["netkeiba_id"]] = {
-            "rank": idx,
-            "sex_rank": sex_counter[sex],
-            "score": calculate_score(h),
+            "rank": overall_rank,
+            "sex_rank": s_rank,
+            "score": score,
             "race_status": h.get("race_status", ""),
             "starts": h.get("starts"),
             "wins": h.get("wins"),

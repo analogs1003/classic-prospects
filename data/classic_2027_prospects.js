@@ -3,7 +3,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
   "generation_id": "2027",
   "season_label": "2027クラシック世代（現2歳・2024年産）",
   "period_label": "〜2027年 日本ダービー・オークスまで",
-  "updated_at": "2026-11-14 17:42",
+  "updated_at": "2026-11-14 17:46",
   "horses": [
     {
       "netkeiba_id": "2024106655",
@@ -2727,7 +2727,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 2
       },
       "2024107165": {
-        "rank": 6,
+        "rank": 5,
         "sex_rank": 3,
         "score": 83,
         "race_status": "重賞勝馬",
@@ -2735,16 +2735,16 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 2
       },
       "2024106712": {
-        "rank": 7,
-        "sex_rank": 4,
+        "rank": 5,
+        "sex_rank": 3,
         "score": 83,
         "race_status": "重賞勝馬",
         "starts": 3,
         "wins": 2
       },
       "2024106687": {
-        "rank": 8,
-        "sex_rank": 4,
+        "rank": 5,
+        "sex_rank": 3,
         "score": 83,
         "race_status": "重賞勝馬",
         "starts": 2,
@@ -2759,8 +2759,8 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 2
       },
       "2024105780": {
-        "rank": 10,
-        "sex_rank": 6,
+        "rank": 9,
+        "sex_rank": 5,
         "score": 67,
         "race_status": "OP・1勝クラス勝馬",
         "starts": 4,
@@ -2775,7 +2775,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 2
       },
       "2024106454": {
-        "rank": 12,
+        "rank": 11,
         "sex_rank": 5,
         "score": 63,
         "race_status": "OP・1勝クラス勝馬",
@@ -2783,48 +2783,48 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 2
       },
       "2024106264": {
-        "rank": 13,
-        "sex_rank": 8,
-        "score": 63,
-        "race_status": "OP・1勝クラス勝馬",
-        "starts": 2,
-        "wins": 2
-      },
-      "2024106399": {
-        "rank": 14,
-        "sex_rank": 9,
-        "score": 63,
-        "race_status": "OP・1勝クラス勝馬",
-        "starts": 2,
-        "wins": 2
-      },
-      "2024106124": {
-        "rank": 15,
-        "sex_rank": 6,
-        "score": 63,
-        "race_status": "OP・1勝クラス勝馬",
-        "starts": 3,
-        "wins": 2
-      },
-      "2024101722": {
-        "rank": 16,
-        "sex_rank": 10,
-        "score": 63,
-        "race_status": "OP・1勝クラス勝馬",
-        "starts": 2,
-        "wins": 2
-      },
-      "2024105758": {
-        "rank": 17,
+        "rank": 11,
         "sex_rank": 7,
         "score": 63,
         "race_status": "OP・1勝クラス勝馬",
         "starts": 2,
         "wins": 2
       },
+      "2024106399": {
+        "rank": 11,
+        "sex_rank": 7,
+        "score": 63,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 2,
+        "wins": 2
+      },
+      "2024106124": {
+        "rank": 11,
+        "sex_rank": 5,
+        "score": 63,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 3,
+        "wins": 2
+      },
+      "2024101722": {
+        "rank": 11,
+        "sex_rank": 7,
+        "score": 63,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 2,
+        "wins": 2
+      },
+      "2024105758": {
+        "rank": 11,
+        "sex_rank": 5,
+        "score": 63,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 2,
+        "wins": 2
+      },
       "2024100445": {
-        "rank": 18,
-        "sex_rank": 11,
+        "rank": 11,
+        "sex_rank": 7,
         "score": 63,
         "race_status": "OP・1勝クラス勝馬",
         "starts": 3,
@@ -2855,7 +2855,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024106333": {
-        "rank": 22,
+        "rank": 21,
         "sex_rank": 8,
         "score": 42,
         "race_status": "新馬・未勝利勝馬",
@@ -2871,7 +2871,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024106349": {
-        "rank": 24,
+        "rank": 23,
         "sex_rank": 9,
         "score": 39,
         "race_status": "新馬・未勝利勝馬",
@@ -2895,7 +2895,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024106452": {
-        "rank": 27,
+        "rank": 26,
         "sex_rank": 16,
         "score": 36,
         "race_status": "新馬・未勝利勝馬",
@@ -2903,8 +2903,8 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024106314": {
-        "rank": 28,
-        "sex_rank": 17,
+        "rank": 26,
+        "sex_rank": 16,
         "score": 36,
         "race_status": "新馬・未勝利勝馬",
         "starts": 1,
@@ -2919,7 +2919,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024106690": {
-        "rank": 30,
+        "rank": 29,
         "sex_rank": 12,
         "score": 34,
         "race_status": "新馬・未勝利勝馬",
@@ -2927,24 +2927,24 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024106618": {
-        "rank": 31,
-        "sex_rank": 13,
+        "rank": 29,
+        "sex_rank": 12,
         "score": 34,
         "race_status": "新馬・未勝利勝馬",
         "starts": 1,
         "wins": 1
       },
       "2024104953": {
-        "rank": 32,
-        "sex_rank": 14,
+        "rank": 29,
+        "sex_rank": 12,
         "score": 34,
         "race_status": "重賞・OP好走",
         "starts": 3,
         "wins": 1
       },
       "2024106662": {
-        "rank": 33,
-        "sex_rank": 19,
+        "rank": 29,
+        "sex_rank": 18,
         "score": 34,
         "race_status": "新馬・未勝利勝馬",
         "starts": 2,
@@ -2959,15 +2959,15 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024104696": {
-        "rank": 35,
-        "sex_rank": 21,
+        "rank": 34,
+        "sex_rank": 20,
         "score": 30,
         "race_status": "重賞・OP好走",
         "starts": 2,
         "wins": 1
       },
       "2024104587": {
-        "rank": 36,
+        "rank": 34,
         "sex_rank": 15,
         "score": 30,
         "race_status": "重賞・OP好走",
@@ -2999,23 +2999,23 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024105648": {
-        "rank": 40,
-        "sex_rank": 17,
+        "rank": 39,
+        "sex_rank": 16,
         "score": 23,
         "race_status": "新馬・未勝利勝馬",
         "starts": 3,
         "wins": 1
       },
       "2024106694": {
-        "rank": 41,
-        "sex_rank": 18,
+        "rank": 39,
+        "sex_rank": 16,
         "score": 23,
         "race_status": "新馬・未勝利勝馬",
         "starts": 1,
         "wins": 1
       },
       "2024106422": {
-        "rank": 42,
+        "rank": 39,
         "sex_rank": 24,
         "score": 23,
         "race_status": "出走済(未勝利)",
@@ -3023,24 +3023,24 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106313": {
-        "rank": 43,
-        "sex_rank": 25,
+        "rank": 39,
+        "sex_rank": 24,
         "score": 23,
         "race_status": "出走済(未勝利)",
         "starts": 1,
         "wins": 0
       },
       "2024106624": {
-        "rank": 44,
-        "sex_rank": 26,
+        "rank": 39,
+        "sex_rank": 24,
         "score": 23,
         "race_status": "出走済(未勝利)",
         "starts": 3,
         "wins": 0
       },
       "2024106369": {
-        "rank": 45,
-        "sex_rank": 27,
+        "rank": 39,
+        "sex_rank": 24,
         "score": 23,
         "race_status": "出走済(未勝利)",
         "starts": 1,
@@ -3055,8 +3055,8 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106368": {
-        "rank": 47,
-        "sex_rank": 29,
+        "rank": 46,
+        "sex_rank": 28,
         "score": 21,
         "race_status": "出走済(未勝利)",
         "starts": 2,
@@ -3071,31 +3071,31 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106496": {
-        "rank": 49,
-        "sex_rank": 31,
+        "rank": 48,
+        "sex_rank": 30,
         "score": 20,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024105811": {
-        "rank": 50,
-        "sex_rank": 32,
+        "rank": 48,
+        "sex_rank": 30,
         "score": 20,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106063": {
-        "rank": 51,
-        "sex_rank": 33,
+        "rank": 48,
+        "sex_rank": 30,
         "score": 20,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106187": {
-        "rank": 52,
+        "rank": 48,
         "sex_rank": 19,
         "score": 20,
         "race_status": "出走済(未勝利)",
@@ -3103,24 +3103,24 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024105897": {
-        "rank": 53,
-        "sex_rank": 34,
+        "rank": 48,
+        "sex_rank": 30,
         "score": 20,
         "race_status": "出走済(未勝利)",
         "starts": 2,
         "wins": 0
       },
       "2024106622": {
-        "rank": 54,
-        "sex_rank": 35,
+        "rank": 48,
+        "sex_rank": 30,
         "score": 20,
         "race_status": "出走済(未勝利)",
         "starts": 1,
         "wins": 0
       },
       "2024106180": {
-        "rank": 55,
-        "sex_rank": 20,
+        "rank": 48,
+        "sex_rank": 19,
         "score": 20,
         "race_status": "出走済(未勝利)",
         "starts": 3,
@@ -3135,31 +3135,31 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024106531": {
-        "rank": 57,
-        "sex_rank": 37,
+        "rank": 56,
+        "sex_rank": 36,
         "score": 18,
         "race_status": "新馬・未勝利勝馬",
         "starts": 1,
         "wins": 1
       },
       "2024106645": {
-        "rank": 58,
-        "sex_rank": 38,
+        "rank": 56,
+        "sex_rank": 36,
         "score": 18,
         "race_status": "新馬・未勝利勝馬",
         "starts": 1,
         "wins": 1
       },
       "2024106312": {
-        "rank": 59,
-        "sex_rank": 39,
+        "rank": 56,
+        "sex_rank": 36,
         "score": 18,
         "race_status": "新馬・未勝利勝馬",
         "starts": 1,
         "wins": 1
       },
       "2024106292": {
-        "rank": 60,
+        "rank": 56,
         "sex_rank": 21,
         "score": 18,
         "race_status": "出走済(未勝利)",
@@ -3167,16 +3167,16 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106115": {
-        "rank": 61,
-        "sex_rank": 22,
+        "rank": 56,
+        "sex_rank": 21,
         "score": 18,
         "race_status": "出走済(未勝利)",
         "starts": 1,
         "wins": 0
       },
       "2024106363": {
-        "rank": 62,
-        "sex_rank": 23,
+        "rank": 56,
+        "sex_rank": 21,
         "score": 18,
         "race_status": "出走済(未勝利)",
         "starts": 1,
@@ -3191,7 +3191,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106488": {
-        "rank": 64,
+        "rank": 63,
         "sex_rank": 24,
         "score": 17,
         "race_status": "未出走",
@@ -3199,16 +3199,16 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106524": {
-        "rank": 65,
-        "sex_rank": 41,
+        "rank": 63,
+        "sex_rank": 40,
         "score": 17,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106675": {
-        "rank": 66,
-        "sex_rank": 42,
+        "rank": 63,
+        "sex_rank": 40,
         "score": 17,
         "race_status": "出走済(未勝利)",
         "starts": 1,
@@ -3231,7 +3231,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024107148": {
-        "rank": 69,
+        "rank": 68,
         "sex_rank": 26,
         "score": 14,
         "race_status": "未出走",
@@ -3239,80 +3239,80 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106714": {
-        "rank": 70,
-        "sex_rank": 44,
+        "rank": 68,
+        "sex_rank": 43,
         "score": 14,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106105": {
-        "rank": 71,
-        "sex_rank": 45,
+        "rank": 68,
+        "sex_rank": 43,
         "score": 14,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106748": {
-        "rank": 72,
-        "sex_rank": 46,
+        "rank": 68,
+        "sex_rank": 43,
         "score": 14,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106297": {
-        "rank": 73,
-        "sex_rank": 27,
+        "rank": 68,
+        "sex_rank": 26,
         "score": 14,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024107108": {
-        "rank": 74,
-        "sex_rank": 28,
+        "rank": 68,
+        "sex_rank": 26,
         "score": 14,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106456": {
-        "rank": 75,
-        "sex_rank": 47,
+        "rank": 68,
+        "sex_rank": 43,
         "score": 14,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106547": {
-        "rank": 76,
-        "sex_rank": 29,
+        "rank": 68,
+        "sex_rank": 26,
         "score": 14,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024105986": {
-        "rank": 77,
-        "sex_rank": 48,
+        "rank": 68,
+        "sex_rank": 43,
         "score": 14,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106519": {
-        "rank": 78,
-        "sex_rank": 49,
+        "rank": 68,
+        "sex_rank": 43,
         "score": 14,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106164": {
-        "rank": 79,
-        "sex_rank": 30,
+        "rank": 68,
+        "sex_rank": 26,
         "score": 14,
         "race_status": "未出走",
         "starts": 0,
@@ -3327,7 +3327,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106211": {
-        "rank": 81,
+        "rank": 80,
         "sex_rank": 50,
         "score": 12,
         "race_status": "未出走",
@@ -3335,64 +3335,64 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024110004": {
-        "rank": 82,
-        "sex_rank": 51,
+        "rank": 80,
+        "sex_rank": 50,
         "score": 12,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106366": {
-        "rank": 83,
-        "sex_rank": 32,
+        "rank": 80,
+        "sex_rank": 31,
         "score": 12,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106391": {
-        "rank": 84,
-        "sex_rank": 33,
+        "rank": 80,
+        "sex_rank": 31,
         "score": 12,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106564": {
-        "rank": 85,
-        "sex_rank": 52,
+        "rank": 80,
+        "sex_rank": 50,
         "score": 12,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106523": {
-        "rank": 86,
-        "sex_rank": 34,
+        "rank": 80,
+        "sex_rank": 31,
         "score": 12,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106330": {
-        "rank": 87,
-        "sex_rank": 35,
+        "rank": 80,
+        "sex_rank": 31,
         "score": 12,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106428": {
-        "rank": 88,
-        "sex_rank": 36,
+        "rank": 80,
+        "sex_rank": 31,
         "score": 12,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106486": {
-        "rank": 89,
-        "sex_rank": 37,
+        "rank": 80,
+        "sex_rank": 31,
         "score": 12,
         "race_status": "未出走",
         "starts": 0,
@@ -3407,16 +3407,16 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106925": {
-        "rank": 91,
-        "sex_rank": 39,
+        "rank": 90,
+        "sex_rank": 38,
         "score": 10,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106005": {
-        "rank": 92,
-        "sex_rank": 40,
+        "rank": 90,
+        "sex_rank": 38,
         "score": 10,
         "race_status": "未調査",
         "starts": null,
@@ -3431,15 +3431,15 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106378": {
-        "rank": 94,
-        "sex_rank": 42,
+        "rank": 93,
+        "sex_rank": 41,
         "score": 6,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106667": {
-        "rank": 95,
+        "rank": 93,
         "sex_rank": 53,
         "score": 6,
         "race_status": "未出走",
@@ -3447,40 +3447,40 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106311": {
-        "rank": 96,
-        "sex_rank": 43,
+        "rank": 93,
+        "sex_rank": 41,
         "score": 6,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106440": {
-        "rank": 97,
-        "sex_rank": 44,
+        "rank": 93,
+        "sex_rank": 41,
         "score": 6,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106116": {
-        "rank": 98,
-        "sex_rank": 45,
+        "rank": 93,
+        "sex_rank": 41,
         "score": 6,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106611": {
-        "rank": 99,
-        "sex_rank": 46,
+        "rank": 93,
+        "sex_rank": 41,
         "score": 6,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106720": {
-        "rank": 100,
-        "sex_rank": 54,
+        "rank": 93,
+        "sex_rank": 53,
         "score": 6,
         "race_status": "未出走",
         "starts": 0,
@@ -3497,8 +3497,8 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 3
       },
       "2024107032": {
-        "rank": 2,
-        "sex_rank": 2,
+        "rank": 1,
+        "sex_rank": 1,
         "score": 148,
         "race_status": "重賞勝馬",
         "starts": 3,
@@ -3537,7 +3537,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 2
       },
       "2024107165": {
-        "rank": 7,
+        "rank": 6,
         "sex_rank": 3,
         "score": 83,
         "race_status": "重賞勝馬",
@@ -3545,16 +3545,16 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 2
       },
       "2024106712": {
-        "rank": 8,
-        "sex_rank": 4,
+        "rank": 6,
+        "sex_rank": 3,
         "score": 83,
         "race_status": "重賞勝馬",
         "starts": 3,
         "wins": 2
       },
       "2024106687": {
-        "rank": 9,
-        "sex_rank": 5,
+        "rank": 6,
+        "sex_rank": 4,
         "score": 83,
         "race_status": "重賞勝馬",
         "starts": 2,
@@ -3569,8 +3569,8 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 2
       },
       "2024105780": {
-        "rank": 11,
-        "sex_rank": 7,
+        "rank": 10,
+        "sex_rank": 6,
         "score": 67,
         "race_status": "OP・1勝クラス勝馬",
         "starts": 4,
@@ -3585,7 +3585,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 2
       },
       "2024106454": {
-        "rank": 13,
+        "rank": 12,
         "sex_rank": 5,
         "score": 63,
         "race_status": "OP・1勝クラス勝馬",
@@ -3593,40 +3593,40 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 2
       },
       "2024106264": {
-        "rank": 14,
-        "sex_rank": 9,
+        "rank": 12,
+        "sex_rank": 8,
         "score": 63,
         "race_status": "OP・1勝クラス勝馬",
         "starts": 2,
         "wins": 2
       },
       "2024106399": {
-        "rank": 15,
-        "sex_rank": 10,
+        "rank": 12,
+        "sex_rank": 8,
         "score": 63,
         "race_status": "OP・1勝クラス勝馬",
         "starts": 2,
         "wins": 2
       },
       "2024106124": {
-        "rank": 16,
-        "sex_rank": 6,
+        "rank": 12,
+        "sex_rank": 5,
         "score": 63,
         "race_status": "OP・1勝クラス勝馬",
         "starts": 3,
         "wins": 2
       },
       "2024105758": {
-        "rank": 17,
-        "sex_rank": 7,
+        "rank": 12,
+        "sex_rank": 5,
         "score": 63,
         "race_status": "OP・1勝クラス勝馬",
         "starts": 2,
         "wins": 2
       },
       "2024100445": {
-        "rank": 18,
-        "sex_rank": 11,
+        "rank": 12,
+        "sex_rank": 8,
         "score": 63,
         "race_status": "OP・1勝クラス勝馬",
         "starts": 3,
@@ -3657,15 +3657,15 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024104321": {
-        "rank": 22,
-        "sex_rank": 15,
+        "rank": 21,
+        "sex_rank": 14,
         "score": 42,
         "race_status": "新馬・未勝利勝馬",
         "starts": 1,
         "wins": 1
       },
       "2024106333": {
-        "rank": 23,
+        "rank": 21,
         "sex_rank": 8,
         "score": 42,
         "race_status": "新馬・未勝利勝馬",
@@ -3689,7 +3689,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024106349": {
-        "rank": 26,
+        "rank": 25,
         "sex_rank": 9,
         "score": 39,
         "race_status": "新馬・未勝利勝馬",
@@ -3713,7 +3713,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024106452": {
-        "rank": 29,
+        "rank": 28,
         "sex_rank": 18,
         "score": 36,
         "race_status": "新馬・未勝利勝馬",
@@ -3721,8 +3721,8 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024106314": {
-        "rank": 30,
-        "sex_rank": 19,
+        "rank": 28,
+        "sex_rank": 18,
         "score": 36,
         "race_status": "新馬・未勝利勝馬",
         "starts": 1,
@@ -3737,7 +3737,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024106690": {
-        "rank": 32,
+        "rank": 31,
         "sex_rank": 12,
         "score": 34,
         "race_status": "新馬・未勝利勝馬",
@@ -3745,24 +3745,24 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024106618": {
-        "rank": 33,
-        "sex_rank": 13,
+        "rank": 31,
+        "sex_rank": 12,
         "score": 34,
         "race_status": "新馬・未勝利勝馬",
         "starts": 1,
         "wins": 1
       },
       "2024104953": {
-        "rank": 34,
-        "sex_rank": 14,
+        "rank": 31,
+        "sex_rank": 12,
         "score": 34,
         "race_status": "重賞・OP好走",
         "starts": 3,
         "wins": 1
       },
       "2024106662": {
-        "rank": 35,
-        "sex_rank": 21,
+        "rank": 31,
+        "sex_rank": 20,
         "score": 34,
         "race_status": "新馬・未勝利勝馬",
         "starts": 2,
@@ -3777,15 +3777,15 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024104696": {
-        "rank": 37,
-        "sex_rank": 23,
+        "rank": 36,
+        "sex_rank": 22,
         "score": 30,
         "race_status": "重賞・OP好走",
         "starts": 2,
         "wins": 1
       },
       "2024104587": {
-        "rank": 38,
+        "rank": 36,
         "sex_rank": 15,
         "score": 30,
         "race_status": "重賞・OP好走",
@@ -3801,8 +3801,8 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024107248": {
-        "rank": 40,
-        "sex_rank": 25,
+        "rank": 39,
+        "sex_rank": 24,
         "score": 28,
         "race_status": "重賞・OP好走",
         "starts": 3,
@@ -3825,23 +3825,23 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024105648": {
-        "rank": 43,
-        "sex_rank": 17,
+        "rank": 42,
+        "sex_rank": 16,
         "score": 23,
         "race_status": "新馬・未勝利勝馬",
         "starts": 3,
         "wins": 1
       },
       "2024106694": {
-        "rank": 44,
-        "sex_rank": 18,
+        "rank": 42,
+        "sex_rank": 16,
         "score": 23,
         "race_status": "新馬・未勝利勝馬",
         "starts": 1,
         "wins": 1
       },
       "2024106422": {
-        "rank": 45,
+        "rank": 42,
         "sex_rank": 27,
         "score": 23,
         "race_status": "出走済(未勝利)",
@@ -3849,24 +3849,24 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106313": {
-        "rank": 46,
-        "sex_rank": 28,
+        "rank": 42,
+        "sex_rank": 27,
         "score": 23,
         "race_status": "出走済(未勝利)",
         "starts": 1,
         "wins": 0
       },
       "2024106624": {
-        "rank": 47,
-        "sex_rank": 29,
+        "rank": 42,
+        "sex_rank": 27,
         "score": 23,
         "race_status": "出走済(未勝利)",
         "starts": 3,
         "wins": 0
       },
       "2024106369": {
-        "rank": 48,
-        "sex_rank": 30,
+        "rank": 42,
+        "sex_rank": 27,
         "score": 23,
         "race_status": "出走済(未勝利)",
         "starts": 1,
@@ -3881,8 +3881,8 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106368": {
-        "rank": 50,
-        "sex_rank": 32,
+        "rank": 49,
+        "sex_rank": 31,
         "score": 21,
         "race_status": "出走済(未勝利)",
         "starts": 2,
@@ -3897,23 +3897,23 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024105811": {
-        "rank": 52,
-        "sex_rank": 34,
+        "rank": 51,
+        "sex_rank": 33,
         "score": 20,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106063": {
-        "rank": 53,
-        "sex_rank": 35,
+        "rank": 51,
+        "sex_rank": 33,
         "score": 20,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106187": {
-        "rank": 54,
+        "rank": 51,
         "sex_rank": 19,
         "score": 20,
         "race_status": "出走済(未勝利)",
@@ -3921,32 +3921,32 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024105897": {
-        "rank": 55,
-        "sex_rank": 36,
+        "rank": 51,
+        "sex_rank": 33,
         "score": 20,
         "race_status": "出走済(未勝利)",
         "starts": 2,
         "wins": 0
       },
       "2024106622": {
-        "rank": 56,
-        "sex_rank": 37,
+        "rank": 51,
+        "sex_rank": 33,
         "score": 20,
         "race_status": "出走済(未勝利)",
         "starts": 1,
         "wins": 0
       },
       "2024106180": {
-        "rank": 57,
-        "sex_rank": 20,
+        "rank": 51,
+        "sex_rank": 19,
         "score": 20,
         "race_status": "出走済(未勝利)",
         "starts": 3,
         "wins": 0
       },
       "2024106297": {
-        "rank": 58,
-        "sex_rank": 21,
+        "rank": 51,
+        "sex_rank": 19,
         "score": 20,
         "race_status": "出走済(未勝利)",
         "starts": 1,
@@ -3961,7 +3961,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024106323": {
-        "rank": 60,
+        "rank": 59,
         "sex_rank": 38,
         "score": 18,
         "race_status": "新馬・未勝利勝馬",
@@ -3969,48 +3969,48 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 1
       },
       "2024106531": {
-        "rank": 61,
-        "sex_rank": 39,
+        "rank": 59,
+        "sex_rank": 38,
         "score": 18,
         "race_status": "新馬・未勝利勝馬",
         "starts": 1,
         "wins": 1
       },
       "2024106645": {
-        "rank": 62,
-        "sex_rank": 40,
+        "rank": 59,
+        "sex_rank": 38,
         "score": 18,
         "race_status": "新馬・未勝利勝馬",
         "starts": 1,
         "wins": 1
       },
       "2024106312": {
-        "rank": 63,
-        "sex_rank": 41,
+        "rank": 59,
+        "sex_rank": 38,
         "score": 18,
         "race_status": "新馬・未勝利勝馬",
         "starts": 1,
         "wins": 1
       },
       "2024106292": {
-        "rank": 64,
-        "sex_rank": 23,
+        "rank": 59,
+        "sex_rank": 22,
         "score": 18,
         "race_status": "出走済(未勝利)",
         "starts": 1,
         "wins": 0
       },
       "2024106115": {
-        "rank": 65,
-        "sex_rank": 24,
+        "rank": 59,
+        "sex_rank": 22,
         "score": 18,
         "race_status": "出走済(未勝利)",
         "starts": 1,
         "wins": 0
       },
       "2024106363": {
-        "rank": 66,
-        "sex_rank": 25,
+        "rank": 59,
+        "sex_rank": 22,
         "score": 18,
         "race_status": "出走済(未勝利)",
         "starts": 1,
@@ -4025,7 +4025,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106488": {
-        "rank": 68,
+        "rank": 67,
         "sex_rank": 26,
         "score": 17,
         "race_status": "未出走",
@@ -4033,16 +4033,16 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106524": {
-        "rank": 69,
-        "sex_rank": 43,
+        "rank": 67,
+        "sex_rank": 42,
         "score": 17,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106675": {
-        "rank": 70,
-        "sex_rank": 44,
+        "rank": 67,
+        "sex_rank": 42,
         "score": 17,
         "race_status": "出走済(未勝利)",
         "starts": 1,
@@ -4065,7 +4065,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024107148": {
-        "rank": 73,
+        "rank": 72,
         "sex_rank": 28,
         "score": 14,
         "race_status": "未出走",
@@ -4073,72 +4073,72 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106714": {
-        "rank": 74,
-        "sex_rank": 46,
+        "rank": 72,
+        "sex_rank": 45,
         "score": 14,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106105": {
-        "rank": 75,
-        "sex_rank": 47,
+        "rank": 72,
+        "sex_rank": 45,
         "score": 14,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106748": {
-        "rank": 76,
-        "sex_rank": 48,
+        "rank": 72,
+        "sex_rank": 45,
         "score": 14,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024107108": {
-        "rank": 77,
-        "sex_rank": 29,
+        "rank": 72,
+        "sex_rank": 28,
         "score": 14,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106456": {
-        "rank": 78,
-        "sex_rank": 49,
+        "rank": 72,
+        "sex_rank": 45,
         "score": 14,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106547": {
-        "rank": 79,
-        "sex_rank": 30,
+        "rank": 72,
+        "sex_rank": 28,
         "score": 14,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024105986": {
-        "rank": 80,
-        "sex_rank": 50,
+        "rank": 72,
+        "sex_rank": 45,
         "score": 14,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106519": {
-        "rank": 81,
-        "sex_rank": 51,
+        "rank": 72,
+        "sex_rank": 45,
         "score": 14,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106164": {
-        "rank": 82,
-        "sex_rank": 31,
+        "rank": 72,
+        "sex_rank": 28,
         "score": 14,
         "race_status": "未出走",
         "starts": 0,
@@ -4153,7 +4153,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106211": {
-        "rank": 84,
+        "rank": 83,
         "sex_rank": 52,
         "score": 12,
         "race_status": "未出走",
@@ -4161,64 +4161,64 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024110004": {
-        "rank": 85,
-        "sex_rank": 53,
+        "rank": 83,
+        "sex_rank": 52,
         "score": 12,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106366": {
-        "rank": 86,
-        "sex_rank": 33,
+        "rank": 83,
+        "sex_rank": 32,
         "score": 12,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106391": {
-        "rank": 87,
-        "sex_rank": 34,
+        "rank": 83,
+        "sex_rank": 32,
         "score": 12,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106564": {
-        "rank": 88,
-        "sex_rank": 54,
+        "rank": 83,
+        "sex_rank": 52,
         "score": 12,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106523": {
-        "rank": 89,
-        "sex_rank": 35,
+        "rank": 83,
+        "sex_rank": 32,
         "score": 12,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106330": {
-        "rank": 90,
-        "sex_rank": 36,
+        "rank": 83,
+        "sex_rank": 32,
         "score": 12,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106428": {
-        "rank": 91,
-        "sex_rank": 37,
+        "rank": 83,
+        "sex_rank": 32,
         "score": 12,
         "race_status": "未出走",
         "starts": 0,
         "wins": 0
       },
       "2024106486": {
-        "rank": 92,
-        "sex_rank": 38,
+        "rank": 83,
+        "sex_rank": 32,
         "score": 12,
         "race_status": "未出走",
         "starts": 0,
@@ -4233,16 +4233,16 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106925": {
-        "rank": 94,
-        "sex_rank": 40,
+        "rank": 93,
+        "sex_rank": 39,
         "score": 10,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106005": {
-        "rank": 95,
-        "sex_rank": 41,
+        "rank": 93,
+        "sex_rank": 39,
         "score": 10,
         "race_status": "未調査",
         "starts": null,
@@ -4257,15 +4257,15 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106378": {
-        "rank": 97,
-        "sex_rank": 43,
+        "rank": 96,
+        "sex_rank": 42,
         "score": 6,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106667": {
-        "rank": 98,
+        "rank": 96,
         "sex_rank": 55,
         "score": 6,
         "race_status": "未出走",
@@ -4273,40 +4273,40 @@ window.CLASSIC_GENERATIONS["2027"] = {
         "wins": 0
       },
       "2024106311": {
-        "rank": 99,
-        "sex_rank": 44,
+        "rank": 96,
+        "sex_rank": 42,
         "score": 6,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106440": {
-        "rank": 100,
-        "sex_rank": 45,
+        "rank": 96,
+        "sex_rank": 42,
         "score": 6,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106116": {
-        "rank": 101,
-        "sex_rank": 46,
+        "rank": 96,
+        "sex_rank": 42,
         "score": 6,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106611": {
-        "rank": 102,
-        "sex_rank": 47,
+        "rank": 96,
+        "sex_rank": 42,
         "score": 6,
         "race_status": "未調査",
         "starts": null,
         "wins": null
       },
       "2024106720": {
-        "rank": 103,
-        "sex_rank": 56,
+        "rank": 96,
+        "sex_rank": 55,
         "score": 6,
         "race_status": "未出走",
         "starts": 0,

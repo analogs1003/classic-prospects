@@ -652,13 +652,34 @@ def main():
             )
         )
         sex_cnt = {"牡": 0, "牝": 0}
+        last_overall_score = None
+        last_overall_rank = 0
+        last_sex_score = {"牡": None, "牝": None}
+        last_sex_rank = {"牡": 0, "牝": 0}
+
         day_snap = {}
         for idx, x in enumerate(day_list, start=1):
-            sex_cnt[x["sex"]] += 1
+            sex = x["sex"]
+            score = calculate_score(x)
+            if score != last_overall_score:
+                overall_rank = idx
+                last_overall_score = score
+                last_overall_rank = overall_rank
+            else:
+                overall_rank = last_overall_rank
+
+            sex_cnt[sex] += 1
+            if score != last_sex_score[sex]:
+                s_rank = sex_cnt[sex]
+                last_sex_score[sex] = score
+                last_sex_rank[sex] = s_rank
+            else:
+                s_rank = last_sex_rank[sex]
+
             day_snap[x["netkeiba_id"]] = {
-                "rank": idx,
-                "sex_rank": sex_cnt[x["sex"]],
-                "score": calculate_score(x),
+                "rank": overall_rank,
+                "sex_rank": s_rank,
+                "score": score,
                 "race_status": x["race_status"],
                 "starts": x["starts"],
                 "wins": x["wins"],

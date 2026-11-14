@@ -350,9 +350,18 @@
     }
 
     emptyState.classList.add("hidden");
+    let lastScore = null;
+    let currentRank = 0;
     tbody.innerHTML = list
       .map((h, idx) => {
-        const rank = idx + 1;
+        let rank = idx + 1;
+        if (state.sortBy === "score") {
+          if (h.score.total !== lastScore) {
+            currentRank = idx + 1;
+            lastScore = h.score.total;
+          }
+          rank = currentRank;
+        }
         const rankClass = rank <= 3 ? `rank-${rank}` : "";
         const sexClass = h.sex === "牡" ? "sex-colt" : "sex-filly";
         const mainText = h.major_results || h.pedigree_note || "-";
