@@ -451,14 +451,35 @@
     modalResults.textContent = horse.major_results || "（出走情報・主要戦績の登録なし）";
     modalPedigree.textContent = horse.pedigree_note || "-";
 
-    if (state.snapshotDates.length > 0) {
-      const historyHtml = state.snapshotDates
-        .slice()
-        .reverse()
-        .map((date) => {
-          const rec = state.snapshots[date]?.[horse.netkeiba_id];
-          if (!rec) return "";
-          const sexLabel = horse.sex === "牡" ? "牡馬" : "牝馬";
+    const sexLabel = horse.sex === "牡" ? "牡馬" : "牝馬";
+    const allEntries = state.snapshotDates
+      .map((date) => {
+        const rec = state.snapshots[date]?.[horse.netkeiba_id];
+        return rec ? { date, rec } : null;
+      })
+      .filter(Boolean);
+
+    const milestoneEntries = allEntries.filter((entry, idx) => {
+      if (idx === 0 || idx === allEntries.length - 1) return true;
+      const prev = allEntries[idx - 1].rec;
+      const cur = entry.rec;
+      return (
+        cur.rank !== prev.rank ||
+        cur.score !== prev.score ||
+        cur.race_status !== prev.race_status ||
+        cur.starts !== prev.starts ||
+        cur.wins !== prev.wins
+      );
+    });
+
+    function renderHistory(showAll) {
+      if (allEntries.length === 0) {
+        modalHistory.innerHTML = '<span class="history-status">履歴データなし</span>';
+        return;
+      }
+      const target = (showAll ? allEntries : milestoneEntries).slice().reverse();
+      const rowsHtml = target
+        .map(({ date, rec }) => {
           const recordStr =
             rec.starts !== null && rec.starts !== undefined
               ? `${rec.starts}戦${rec.wins || 0}勝`
@@ -474,12 +495,25 @@
             </div>
           `;
         })
-        .filter(Boolean)
         .join("");
-      modalHistory.innerHTML = historyHtml || '<span class="history-status">履歴データなし</span>';
-    } else {
-      modalHistory.innerHTML = '<span class="history-status">履歴データなし</span>';
+
+      const hasHidden = milestoneEntries.length < allEntries.length;
+      const toggleHtml = hasHidden
+        ? `<button type="button" class="history-toggle-btn" id="history-toggle-btn">${
+            showAll
+              ? `変化のあった節目のみ表示（${milestoneEntries.length}件）`
+              : `すべての履歴を表示（全${allEntries.length}件）`
+          }</button>`
+        : "";
+
+      modalHistory.innerHTML = `<div class="history-items">${rowsHtml}</div>${toggleHtml}`;
+      const toggleBtn = document.getElementById("history-toggle-btn");
+      if (toggleBtn) {
+        toggleBtn.addEventListener("click", () => renderHistory(!showAll));
+      }
     }
+
+    renderHistory(false);
 
     modalNetkeiba.href = horse.netkeiba_url || `https://db.netkeiba.com/horse/${horse.netkeiba_id}/`;
 
