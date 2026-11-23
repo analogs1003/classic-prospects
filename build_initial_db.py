@@ -1491,9 +1491,9 @@ RACE_UPDATES = {
     "2024106438": {
         "selection_source": "両方(事前+戦績)",
         "race_status": "重賞勝馬",
-        "starts": 2,
+        "starts": 3,
         "wins": 2,
-        "major_results": "2026年札幌2歳S(G3・札幌芝1800)1着、函館新馬(芝1800)1着"
+        "major_results": "2026年東京スポーツ杯2歳S(G2)2着、札幌2歳S(G3・札幌芝1800)1着、函館新馬(芝1800)1着"
     },
     "2024106287": {
         "selection_source": "両方(事前+戦績)",
@@ -1547,9 +1547,9 @@ RACE_UPDATES = {
     "2024106662": {
         "selection_source": "両方(事前+戦績)",
         "race_status": "新馬・未勝利勝馬",
-        "starts": 2,
+        "starts": 3,
         "wins": 1,
-        "major_results": "2026年10月東京未勝利(芝1800)1着、新潟新馬(芝1600)2着"
+        "major_results": "2026年10月東京未勝利(芝1800)1着、東京スポーツ杯2歳S(G2)10着、新潟新馬(芝1600)2着"
     },
     "2024106349": {
         "selection_source": "両方(事前+戦績)",
@@ -1600,7 +1600,7 @@ RACE_UPDATES = {
     "2024106558": {"race_status": "出走済(未勝利)", "starts": 1, "wins": 0, "major_results": "2026年8月札幌新馬(芝1800)4着"},
     "2024106368": {"race_status": "出走済(未勝利)", "starts": 2, "wins": 0, "major_results": "阪神新馬4着、未勝利4着"},
     "2024105897": {"race_status": "出走済(未勝利)", "starts": 3, "wins": 0, "major_results": "京都未勝利(芝2000)2着、京都新馬3着、東京未勝利4着"},
-    "2024106369": {"race_status": "出走済(未勝利)", "starts": 1, "wins": 0, "major_results": "2026年10月東京新馬(芝1800)2着"},
+    "2024106369": {"race_status": "出走済(未勝利)", "starts": 2, "wins": 0, "major_results": "2026年11月東京未勝利(芝2000)2着、10月東京新馬(芝1800)2着"},
     "2024106622": {"race_status": "出走済(未勝利)", "starts": 1, "wins": 0, "major_results": "2026年11月京都新馬(ダ1800)2着"},
     "2024106675": {"race_status": "出走済(未勝利)", "starts": 1, "wins": 0, "major_results": "2026年6月福島新馬(芝1800)3着"},
     "2024106187": {"race_status": "出走済(未勝利)", "starts": 1, "wins": 0, "major_results": "2026年8月中京新馬(芝1600)3着"},
@@ -2017,14 +2017,14 @@ PERFORMANCE_HORSES = [
         "breeder": "ノーザンファーム",
         "market_type": None,
         "price_man_yen": None,
-        "selection_category": "OP連対馬・芝1800m",
-        "pedigree_note": "新馬勝ちから東京芝1800m・アイビーS(L)で2着好走",
+        "selection_category": "重賞好走・OP連対馬(東スポ杯3着)",
+        "pedigree_note": "新馬勝ちからアイビーS(L)2着、東京スポーツ杯2歳S(G2)3着と重賞戦線でも安定",
         "netkeiba_url": "https://db.netkeiba.com/horse/2024106471/",
         "selection_source": "戦績評価(重賞/OP/新馬)",
         "race_status": "重賞・OP好走",
-        "starts": 2,
+        "starts": 3,
         "wins": 1,
-        "major_results": "2026年アイビーS(L・東京芝1800)2着、新馬1着"
+        "major_results": "2026年東京スポーツ杯2歳S(G2)3着、アイビーS(L・東京芝1800)2着、新馬1着"
     },
     {
         "netkeiba_id": "2024100671",
@@ -2651,6 +2651,58 @@ PERFORMANCE_HORSES = [
         "starts": 1,
         "wins": 1,
         "major_results": "2026年11月東京新馬(芝2000)6馬身差1着"
+    },
+    {
+        "netkeiba_id": "2024104698",
+        "name": "オンユアマークス",
+        "foal_name": "トレンドハンターの2024",
+        "sex": "牡",
+        "birth_year": 2024,
+        "birth_date": "2024-03-30",
+        "coat_color": "黒鹿毛",
+        "sire": "キズナ",
+        "dam": "トレンドハンター",
+        "bms": "マンハッタンカフェ",
+        "trainer": "松永幹夫",
+        "training_center": "栗東",
+        "owner": "前田幸大",
+        "breeder": "千代田牧場",
+        "market_type": None,
+        "price_man_yen": None,
+        "selection_category": "重賞勝馬(東スポ杯2歳S)",
+        "pedigree_note": "母はフラワーC勝ち・桜花賞3着のトレンドハンター。武豊騎手とのコンビで東京スポーツ杯2歳S(G2)を制覇",
+        "netkeiba_url": "https://db.netkeiba.com/horse/2024104698/",
+        "selection_source": "戦績評価(重賞/OP/新馬)",
+        "race_status": "重賞勝馬",
+        "starts": 3,
+        "wins": 2,
+        "major_results": "2026年東京スポーツ杯2歳S(G2・東京芝1800)1着、京都未勝利1着"
+    },
+    {
+        "netkeiba_id": "2024106665",
+        "name": "ウィンザーグレース",
+        "foal_name": "ユーロシャーリーンの2024",
+        "sex": "牝",
+        "birth_year": 2024,
+        "birth_date": "2024-03-20",
+        "coat_color": "鹿毛",
+        "sire": "エピファネイア",
+        "dam": "ユーロシャーリーン",
+        "bms": "Myboycharlie",
+        "trainer": "池添学",
+        "training_center": "栗東",
+        "owner": "シルクレーシング",
+        "breeder": "ノーザンファーム",
+        "market_type": "クラブ募集(シルク)",
+        "price_man_yen": None,
+        "selection_category": "注目新馬勝馬・英G1馬産駒(上り33.2)",
+        "pedigree_note": "母は英G1コロネーションS勝ち馬ユーロシャーリーン。東京芝1600m新馬を上り33.2秒で快勝",
+        "netkeiba_url": "https://db.netkeiba.com/horse/2024106665/",
+        "selection_source": "戦績評価(重賞/OP/新馬)",
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1,
+        "major_results": "2026年11月東京新馬(芝1600)1着(上り33.2)"
     },
 ]
 

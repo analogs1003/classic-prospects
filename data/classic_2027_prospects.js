@@ -3,7 +3,7 @@ window.CLASSIC_GENERATIONS["2027"] = {
   "generation_id": "2027",
   "season_label": "2027クラシック世代（現2歳・2024年産）",
   "period_label": "〜2027年 日本ダービー・オークスまで",
-  "updated_at": "2026-11-22 22:25",
+  "updated_at": "2026-11-23 18:32",
   "horses": [
     {
       "netkeiba_id": "2024106655",
@@ -391,9 +391,9 @@ window.CLASSIC_GENERATIONS["2027"] = {
       "netkeiba_url": "https://db.netkeiba.com/horse/2024106438/",
       "selection_source": "両方(事前+戦績)",
       "race_status": "重賞勝馬",
-      "starts": 2,
+      "starts": 3,
       "wins": 2,
-      "major_results": "2026年札幌2歳S(G3・札幌芝1800)1着、函館新馬(芝1800)1着"
+      "major_results": "2026年東京スポーツ杯2歳S(G2)2着、札幌2歳S(G3・札幌芝1800)1着、函館新馬(芝1800)1着"
     },
     {
       "netkeiba_id": "2024106369",
@@ -417,9 +417,9 @@ window.CLASSIC_GENERATIONS["2027"] = {
       "netkeiba_url": "https://db.netkeiba.com/horse/2024106369/",
       "selection_source": "事前評価(血統/価格)",
       "race_status": "出走済(未勝利)",
-      "starts": 1,
+      "starts": 2,
       "wins": 0,
-      "major_results": "2026年10月東京新馬(芝1800)2着"
+      "major_results": "2026年11月東京未勝利(芝2000)2着、10月東京新馬(芝1800)2着"
     },
     {
       "netkeiba_id": "2024106175",
@@ -885,9 +885,9 @@ window.CLASSIC_GENERATIONS["2027"] = {
       "netkeiba_url": "https://db.netkeiba.com/horse/2024106662/",
       "selection_source": "両方(事前+戦績)",
       "race_status": "新馬・未勝利勝馬",
-      "starts": 2,
+      "starts": 3,
       "wins": 1,
-      "major_results": "2026年10月東京未勝利(芝1800)1着、新潟新馬(芝1600)2着"
+      "major_results": "2026年10月東京未勝利(芝1800)1着、東京スポーツ杯2歳S(G2)10着、新潟新馬(芝1600)2着"
     },
     {
       "netkeiba_id": "2024106720",
@@ -2180,14 +2180,14 @@ window.CLASSIC_GENERATIONS["2027"] = {
       "breeder": "ノーザンファーム",
       "market_type": null,
       "price_man_yen": null,
-      "selection_category": "OP連対馬・芝1800m",
-      "pedigree_note": "新馬勝ちから東京芝1800m・アイビーS(L)で2着好走",
+      "selection_category": "重賞好走・OP連対馬(東スポ杯3着)",
+      "pedigree_note": "新馬勝ちからアイビーS(L)2着、東京スポーツ杯2歳S(G2)3着と重賞戦線でも安定",
       "netkeiba_url": "https://db.netkeiba.com/horse/2024106471/",
       "selection_source": "戦績評価(重賞/OP/新馬)",
       "race_status": "重賞・OP好走",
-      "starts": 2,
+      "starts": 3,
       "wins": 1,
-      "major_results": "2026年アイビーS(L・東京芝1800)2着、新馬1着"
+      "major_results": "2026年東京スポーツ杯2歳S(G2)3着、アイビーS(L・東京芝1800)2着、新馬1着"
     },
     {
       "netkeiba_id": "2024100671",
@@ -2812,6 +2812,58 @@ window.CLASSIC_GENERATIONS["2027"] = {
       "starts": 1,
       "wins": 1,
       "major_results": "2026年11月東京新馬(芝2000)6馬身差1着"
+    },
+    {
+      "netkeiba_id": "2024104698",
+      "name": "オンユアマークス",
+      "foal_name": "トレンドハンターの2024",
+      "sex": "牡",
+      "birth_year": 2024,
+      "birth_date": "2024-03-30",
+      "coat_color": "黒鹿毛",
+      "sire": "キズナ",
+      "dam": "トレンドハンター",
+      "bms": "マンハッタンカフェ",
+      "trainer": "松永幹夫",
+      "training_center": "栗東",
+      "owner": "前田幸大",
+      "breeder": "千代田牧場",
+      "market_type": null,
+      "price_man_yen": null,
+      "selection_category": "重賞勝馬(東スポ杯2歳S)",
+      "pedigree_note": "母はフラワーC勝ち・桜花賞3着のトレンドハンター。武豊騎手とのコンビで東京スポーツ杯2歳S(G2)を制覇",
+      "netkeiba_url": "https://db.netkeiba.com/horse/2024104698/",
+      "selection_source": "戦績評価(重賞/OP/新馬)",
+      "race_status": "重賞勝馬",
+      "starts": 3,
+      "wins": 2,
+      "major_results": "2026年東京スポーツ杯2歳S(G2・東京芝1800)1着、京都未勝利1着"
+    },
+    {
+      "netkeiba_id": "2024106665",
+      "name": "ウィンザーグレース",
+      "foal_name": "ユーロシャーリーンの2024",
+      "sex": "牝",
+      "birth_year": 2024,
+      "birth_date": "2024-03-20",
+      "coat_color": "鹿毛",
+      "sire": "エピファネイア",
+      "dam": "ユーロシャーリーン",
+      "bms": "Myboycharlie",
+      "trainer": "池添学",
+      "training_center": "栗東",
+      "owner": "シルクレーシング",
+      "breeder": "ノーザンファーム",
+      "market_type": "クラブ募集(シルク)",
+      "price_man_yen": null,
+      "selection_category": "注目新馬勝馬・英G1馬産駒(上り33.2)",
+      "pedigree_note": "母は英G1コロネーションS勝ち馬ユーロシャーリーン。東京芝1600m新馬を上り33.2秒で快勝",
+      "netkeiba_url": "https://db.netkeiba.com/horse/2024106665/",
+      "selection_source": "戦績評価(重賞/OP/新馬)",
+      "race_status": "新馬・未勝利勝馬",
+      "starts": 1,
+      "wins": 1,
+      "major_results": "2026年11月東京新馬(芝1600)1着(上り33.2)"
     }
   ],
   "snapshots": {
@@ -6145,6 +6197,888 @@ window.CLASSIC_GENERATIONS["2027"] = {
       "2024106720": {
         "rank": 101,
         "sex_rank": 59,
+        "score": 6,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      }
+    },
+    "2026-11-23": {
+      "2024101722": {
+        "rank": 1,
+        "sex_rank": 1,
+        "score": 148,
+        "race_status": "重賞勝馬",
+        "starts": 3,
+        "wins": 3
+      },
+      "2024107032": {
+        "rank": 1,
+        "sex_rank": 1,
+        "score": 148,
+        "race_status": "重賞勝馬",
+        "starts": 3,
+        "wins": 3
+      },
+      "2024106438": {
+        "rank": 3,
+        "sex_rank": 3,
+        "score": 124,
+        "race_status": "重賞勝馬",
+        "starts": 3,
+        "wins": 2
+      },
+      "2024104698": {
+        "rank": 4,
+        "sex_rank": 4,
+        "score": 103,
+        "race_status": "重賞勝馬",
+        "starts": 3,
+        "wins": 2
+      },
+      "2024106287": {
+        "rank": 5,
+        "sex_rank": 1,
+        "score": 97,
+        "race_status": "重賞勝馬",
+        "starts": 2,
+        "wins": 2
+      },
+      "2024105568": {
+        "rank": 6,
+        "sex_rank": 2,
+        "score": 95,
+        "race_status": "重賞勝馬",
+        "starts": 3,
+        "wins": 2
+      },
+      "2024105444": {
+        "rank": 7,
+        "sex_rank": 5,
+        "score": 83,
+        "race_status": "重賞勝馬",
+        "starts": 2,
+        "wins": 2
+      },
+      "2024107165": {
+        "rank": 7,
+        "sex_rank": 3,
+        "score": 83,
+        "race_status": "重賞勝馬",
+        "starts": 2,
+        "wins": 2
+      },
+      "2024106712": {
+        "rank": 7,
+        "sex_rank": 3,
+        "score": 83,
+        "race_status": "重賞勝馬",
+        "starts": 3,
+        "wins": 2
+      },
+      "2024106687": {
+        "rank": 7,
+        "sex_rank": 5,
+        "score": 83,
+        "race_status": "重賞勝馬",
+        "starts": 2,
+        "wins": 2
+      },
+      "2024104442": {
+        "rank": 11,
+        "sex_rank": 7,
+        "score": 67,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 6,
+        "wins": 2
+      },
+      "2024105780": {
+        "rank": 11,
+        "sex_rank": 7,
+        "score": 67,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 4,
+        "wins": 2
+      },
+      "2024106386": {
+        "rank": 13,
+        "sex_rank": 9,
+        "score": 63,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 2,
+        "wins": 2
+      },
+      "2024105815": {
+        "rank": 13,
+        "sex_rank": 9,
+        "score": 63,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 5,
+        "wins": 2
+      },
+      "2024101202": {
+        "rank": 13,
+        "sex_rank": 9,
+        "score": 63,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 4,
+        "wins": 2
+      },
+      "2024106454": {
+        "rank": 13,
+        "sex_rank": 5,
+        "score": 63,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 2,
+        "wins": 2
+      },
+      "2024108325": {
+        "rank": 13,
+        "sex_rank": 9,
+        "score": 63,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 4,
+        "wins": 2
+      },
+      "2024106264": {
+        "rank": 13,
+        "sex_rank": 9,
+        "score": 63,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 2,
+        "wins": 2
+      },
+      "2024106399": {
+        "rank": 13,
+        "sex_rank": 9,
+        "score": 63,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 2,
+        "wins": 2
+      },
+      "2024106124": {
+        "rank": 13,
+        "sex_rank": 5,
+        "score": 63,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 3,
+        "wins": 2
+      },
+      "2024105758": {
+        "rank": 13,
+        "sex_rank": 5,
+        "score": 63,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 2,
+        "wins": 2
+      },
+      "2024105822": {
+        "rank": 13,
+        "sex_rank": 5,
+        "score": 63,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 4,
+        "wins": 2
+      },
+      "2024100445": {
+        "rank": 13,
+        "sex_rank": 9,
+        "score": 63,
+        "race_status": "OP・1勝クラス勝馬",
+        "starts": 3,
+        "wins": 2
+      },
+      "2024106649": {
+        "rank": 24,
+        "sex_rank": 16,
+        "score": 49,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 2,
+        "wins": 1
+      },
+      "2024100671": {
+        "rank": 25,
+        "sex_rank": 17,
+        "score": 48,
+        "race_status": "重賞・OP好走",
+        "starts": 3,
+        "wins": 1
+      },
+      "2024106496": {
+        "rank": 26,
+        "sex_rank": 18,
+        "score": 42,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1
+      },
+      "2024104321": {
+        "rank": 26,
+        "sex_rank": 18,
+        "score": 42,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1
+      },
+      "2024106333": {
+        "rank": 26,
+        "sex_rank": 9,
+        "score": 42,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 2,
+        "wins": 1
+      },
+      "2024103911": {
+        "rank": 29,
+        "sex_rank": 20,
+        "score": 41,
+        "race_status": "重賞・OP好走",
+        "starts": 2,
+        "wins": 1
+      },
+      "2024106488": {
+        "rank": 30,
+        "sex_rank": 10,
+        "score": 39,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1
+      },
+      "2024106175": {
+        "rank": 30,
+        "sex_rank": 21,
+        "score": 39,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 2,
+        "wins": 1
+      },
+      "2024106349": {
+        "rank": 30,
+        "sex_rank": 10,
+        "score": 39,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1
+      },
+      "2024106471": {
+        "rank": 33,
+        "sex_rank": 22,
+        "score": 38,
+        "race_status": "重賞・OP好走",
+        "starts": 3,
+        "wins": 1
+      },
+      "2024106181": {
+        "rank": 34,
+        "sex_rank": 12,
+        "score": 37,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1
+      },
+      "2024107148": {
+        "rank": 35,
+        "sex_rank": 13,
+        "score": 36,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1
+      },
+      "2024106674": {
+        "rank": 35,
+        "sex_rank": 13,
+        "score": 36,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 4,
+        "wins": 1
+      },
+      "2024106452": {
+        "rank": 35,
+        "sex_rank": 23,
+        "score": 36,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1
+      },
+      "2024106314": {
+        "rank": 35,
+        "sex_rank": 23,
+        "score": 36,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1
+      },
+      "2024105816": {
+        "rank": 39,
+        "sex_rank": 25,
+        "score": 34,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1
+      },
+      "2024106690": {
+        "rank": 39,
+        "sex_rank": 15,
+        "score": 34,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 2,
+        "wins": 1
+      },
+      "2024106618": {
+        "rank": 39,
+        "sex_rank": 15,
+        "score": 34,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1
+      },
+      "2024104953": {
+        "rank": 39,
+        "sex_rank": 15,
+        "score": 34,
+        "race_status": "重賞・OP好走",
+        "starts": 3,
+        "wins": 1
+      },
+      "2024106662": {
+        "rank": 39,
+        "sex_rank": 25,
+        "score": 34,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 3,
+        "wins": 1
+      },
+      "2024102281": {
+        "rank": 44,
+        "sex_rank": 27,
+        "score": 30,
+        "race_status": "重賞・OP好走",
+        "starts": 2,
+        "wins": 1
+      },
+      "2024104696": {
+        "rank": 44,
+        "sex_rank": 27,
+        "score": 30,
+        "race_status": "重賞・OP好走",
+        "starts": 2,
+        "wins": 1
+      },
+      "2024104587": {
+        "rank": 44,
+        "sex_rank": 18,
+        "score": 30,
+        "race_status": "重賞・OP好走",
+        "starts": 2,
+        "wins": 1
+      },
+      "2024106369": {
+        "rank": 47,
+        "sex_rank": 29,
+        "score": 29,
+        "race_status": "出走済(未勝利)",
+        "starts": 2,
+        "wins": 0
+      },
+      "2024107248": {
+        "rank": 48,
+        "sex_rank": 30,
+        "score": 28,
+        "race_status": "重賞・OP好走",
+        "starts": 3,
+        "wins": 1
+      },
+      "2024105897": {
+        "rank": 49,
+        "sex_rank": 31,
+        "score": 26,
+        "race_status": "出走済(未勝利)",
+        "starts": 3,
+        "wins": 0
+      },
+      "2024106538": {
+        "rank": 50,
+        "sex_rank": 32,
+        "score": 24,
+        "race_status": "重賞・OP好走",
+        "starts": 2,
+        "wins": 1
+      },
+      "2024106168": {
+        "rank": 51,
+        "sex_rank": 19,
+        "score": 23,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 2,
+        "wins": 1
+      },
+      "2024105648": {
+        "rank": 51,
+        "sex_rank": 19,
+        "score": 23,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 3,
+        "wins": 1
+      },
+      "2024106694": {
+        "rank": 51,
+        "sex_rank": 19,
+        "score": 23,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1
+      },
+      "2024106422": {
+        "rank": 51,
+        "sex_rank": 33,
+        "score": 23,
+        "race_status": "出走済(未勝利)",
+        "starts": 1,
+        "wins": 0
+      },
+      "2024106313": {
+        "rank": 51,
+        "sex_rank": 33,
+        "score": 23,
+        "race_status": "出走済(未勝利)",
+        "starts": 1,
+        "wins": 0
+      },
+      "2024106624": {
+        "rank": 51,
+        "sex_rank": 33,
+        "score": 23,
+        "race_status": "出走済(未勝利)",
+        "starts": 3,
+        "wins": 0
+      },
+      "2024106558": {
+        "rank": 57,
+        "sex_rank": 36,
+        "score": 21,
+        "race_status": "出走済(未勝利)",
+        "starts": 1,
+        "wins": 0
+      },
+      "2024106368": {
+        "rank": 57,
+        "sex_rank": 36,
+        "score": 21,
+        "race_status": "出走済(未勝利)",
+        "starts": 2,
+        "wins": 0
+      },
+      "2024106655": {
+        "rank": 59,
+        "sex_rank": 38,
+        "score": 20,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024105811": {
+        "rank": 59,
+        "sex_rank": 38,
+        "score": 20,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106063": {
+        "rank": 59,
+        "sex_rank": 38,
+        "score": 20,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106187": {
+        "rank": 59,
+        "sex_rank": 22,
+        "score": 20,
+        "race_status": "出走済(未勝利)",
+        "starts": 1,
+        "wins": 0
+      },
+      "2024106622": {
+        "rank": 59,
+        "sex_rank": 38,
+        "score": 20,
+        "race_status": "出走済(未勝利)",
+        "starts": 1,
+        "wins": 0
+      },
+      "2024106180": {
+        "rank": 59,
+        "sex_rank": 22,
+        "score": 20,
+        "race_status": "出走済(未勝利)",
+        "starts": 3,
+        "wins": 0
+      },
+      "2024106297": {
+        "rank": 59,
+        "sex_rank": 22,
+        "score": 20,
+        "race_status": "出走済(未勝利)",
+        "starts": 1,
+        "wins": 0
+      },
+      "2024106665": {
+        "rank": 66,
+        "sex_rank": 25,
+        "score": 18,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1
+      },
+      "2024107028": {
+        "rank": 66,
+        "sex_rank": 42,
+        "score": 18,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1
+      },
+      "2024106316": {
+        "rank": 66,
+        "sex_rank": 25,
+        "score": 18,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 2,
+        "wins": 1
+      },
+      "2024106323": {
+        "rank": 66,
+        "sex_rank": 42,
+        "score": 18,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1
+      },
+      "2024106531": {
+        "rank": 66,
+        "sex_rank": 42,
+        "score": 18,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1
+      },
+      "2024106645": {
+        "rank": 66,
+        "sex_rank": 42,
+        "score": 18,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1
+      },
+      "2024106312": {
+        "rank": 66,
+        "sex_rank": 42,
+        "score": 18,
+        "race_status": "新馬・未勝利勝馬",
+        "starts": 1,
+        "wins": 1
+      },
+      "2024106292": {
+        "rank": 66,
+        "sex_rank": 25,
+        "score": 18,
+        "race_status": "出走済(未勝利)",
+        "starts": 1,
+        "wins": 0
+      },
+      "2024106115": {
+        "rank": 66,
+        "sex_rank": 25,
+        "score": 18,
+        "race_status": "出走済(未勝利)",
+        "starts": 1,
+        "wins": 0
+      },
+      "2024106363": {
+        "rank": 66,
+        "sex_rank": 25,
+        "score": 18,
+        "race_status": "出走済(未勝利)",
+        "starts": 1,
+        "wins": 0
+      },
+      "2024106441": {
+        "rank": 76,
+        "sex_rank": 47,
+        "score": 17,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106524": {
+        "rank": 76,
+        "sex_rank": 47,
+        "score": 17,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106675": {
+        "rank": 76,
+        "sex_rank": 47,
+        "score": 17,
+        "race_status": "出走済(未勝利)",
+        "starts": 1,
+        "wins": 0
+      },
+      "2024106605": {
+        "rank": 79,
+        "sex_rank": 30,
+        "score": 16,
+        "race_status": "出走済(未勝利)",
+        "starts": 2,
+        "wins": 0
+      },
+      "2024106160": {
+        "rank": 80,
+        "sex_rank": 50,
+        "score": 14,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106714": {
+        "rank": 80,
+        "sex_rank": 50,
+        "score": 14,
+        "race_status": "未調査",
+        "starts": null,
+        "wins": null
+      },
+      "2024106105": {
+        "rank": 80,
+        "sex_rank": 50,
+        "score": 14,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106748": {
+        "rank": 80,
+        "sex_rank": 50,
+        "score": 14,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024107108": {
+        "rank": 80,
+        "sex_rank": 31,
+        "score": 14,
+        "race_status": "未調査",
+        "starts": null,
+        "wins": null
+      },
+      "2024106456": {
+        "rank": 80,
+        "sex_rank": 50,
+        "score": 14,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106547": {
+        "rank": 80,
+        "sex_rank": 31,
+        "score": 14,
+        "race_status": "未調査",
+        "starts": null,
+        "wins": null
+      },
+      "2024105986": {
+        "rank": 80,
+        "sex_rank": 50,
+        "score": 14,
+        "race_status": "未調査",
+        "starts": null,
+        "wins": null
+      },
+      "2024106519": {
+        "rank": 80,
+        "sex_rank": 50,
+        "score": 14,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106164": {
+        "rank": 80,
+        "sex_rank": 31,
+        "score": 14,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106381": {
+        "rank": 90,
+        "sex_rank": 34,
+        "score": 12,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106211": {
+        "rank": 90,
+        "sex_rank": 57,
+        "score": 12,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024110004": {
+        "rank": 90,
+        "sex_rank": 57,
+        "score": 12,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106366": {
+        "rank": 90,
+        "sex_rank": 34,
+        "score": 12,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106391": {
+        "rank": 90,
+        "sex_rank": 34,
+        "score": 12,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106564": {
+        "rank": 90,
+        "sex_rank": 57,
+        "score": 12,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106523": {
+        "rank": 90,
+        "sex_rank": 34,
+        "score": 12,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106330": {
+        "rank": 90,
+        "sex_rank": 34,
+        "score": 12,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106428": {
+        "rank": 90,
+        "sex_rank": 34,
+        "score": 12,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106486": {
+        "rank": 90,
+        "sex_rank": 34,
+        "score": 12,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106217": {
+        "rank": 100,
+        "sex_rank": 41,
+        "score": 10,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106925": {
+        "rank": 100,
+        "sex_rank": 41,
+        "score": 10,
+        "race_status": "未調査",
+        "starts": null,
+        "wins": null
+      },
+      "2024106005": {
+        "rank": 100,
+        "sex_rank": 41,
+        "score": 10,
+        "race_status": "未調査",
+        "starts": null,
+        "wins": null
+      },
+      "2024106121": {
+        "rank": 103,
+        "sex_rank": 44,
+        "score": 6,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106378": {
+        "rank": 103,
+        "sex_rank": 44,
+        "score": 6,
+        "race_status": "未調査",
+        "starts": null,
+        "wins": null
+      },
+      "2024106667": {
+        "rank": 103,
+        "sex_rank": 60,
+        "score": 6,
+        "race_status": "未出走",
+        "starts": 0,
+        "wins": 0
+      },
+      "2024106311": {
+        "rank": 103,
+        "sex_rank": 44,
+        "score": 6,
+        "race_status": "未調査",
+        "starts": null,
+        "wins": null
+      },
+      "2024106440": {
+        "rank": 103,
+        "sex_rank": 44,
+        "score": 6,
+        "race_status": "未調査",
+        "starts": null,
+        "wins": null
+      },
+      "2024106116": {
+        "rank": 103,
+        "sex_rank": 44,
+        "score": 6,
+        "race_status": "未調査",
+        "starts": null,
+        "wins": null
+      },
+      "2024106611": {
+        "rank": 103,
+        "sex_rank": 44,
+        "score": 6,
+        "race_status": "未調査",
+        "starts": null,
+        "wins": null
+      },
+      "2024106720": {
+        "rank": 103,
+        "sex_rank": 60,
         "score": 6,
         "race_status": "未出走",
         "starts": 0,
